@@ -1,0 +1,16 @@
+{
+    "liveSassCompile.settings.formats":[
+       {
+           "format": "expanded",
+           "extensionName": ".css",
+           "savePath": null,
+           "indentWidth": 4
+       }
+   ],
+   
+   "liveSassCompile.settings.generateMap": false
+}
+
+// expanded
+// compressed
+// nested

@@ -1,0 +1,17 @@
+.callContainer-BGIngG,
+.container-cH6QoY,
+.scroller-35tvpe,
+.rowContainer-jDvyA4,
+.container-3r7mfc,
+.wrapper-1gVUIN.minimum-fXpVNc {
+    background-color: var(--background-primary);
+}
+.container-1IyjjY {
+    background-color: var(--background-tertiary);
+    &:hover {
+        background-color: var(--background-modifier-hover);
+    }
+    &:active {
+        background-color: var(--background-modifier-active);
+    }
+}

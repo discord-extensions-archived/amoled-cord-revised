@@ -1,0 +1,11 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         AMOLED-Cord
+    @description  A simple, optimized, no bullshit AMOLED theme.
+    @author       LuckFire#4800
+    @namespace    https://github.com/discord-extensions
+    @version      4.0.0
+    ==/UserStyle== */
+
+    @import url('https://discord-extensions.github.io/amoled-cord/src/source.css');
+}

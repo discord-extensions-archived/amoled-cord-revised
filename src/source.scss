@@ -1,0 +1,32 @@
+@use './utils/variables';
+
+@use './base/app';
+
+@use './components/modals';
+@use './components/popouts';
+@use './components/buttons';
+@use './components/scrollers';
+@use './components/hljs';
+@use './components/theme-warning';
+@use './components/guilds';
+@use './components/members';
+@use './components/sidebar';
+@use './components/titlebar';
+@use './components/modals/stream';
+@use './components/modals/create-server';
+@use './components/modals/keybinds';
+@use './components/modals/guild';
+@use './components/modals/events';
+@use './components/popouts/autocomplete';
+@use './components/popouts/search';
+@use './components/popouts/pinned';
+@use './components/popouts/inbox';
+@use './components/popouts/threads';
+@use './components/popouts/drawerPicker';
+
+@use './pages/chat';
+@use './pages/voice';
+@use './pages/settings';
+@use './pages/friends';
+@use './pages/discover';
+@use './pages/boost';

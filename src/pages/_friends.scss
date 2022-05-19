@@ -1,0 +1,10 @@
+#app-mount .container-2cd8Mz {
+    background-color: var(--background-primary);
+    .itemCard-3Etziu {
+        border: none;
+        background-color: var(--background-secondary);
+        &:hover {
+            background-color: var(--background-tertiary);
+        }
+    }
+}

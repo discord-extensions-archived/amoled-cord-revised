@@ -1,0 +1,43 @@
+.theme-dark,
+.theme-dark .theme-light {
+    /* || Background Colors */
+    --background-primary: black;
+    --background-secondary: #141414;
+    --background-secondary-alt: #1C1C1C;
+    --background-tertiary: #0D0D0D;
+    --background-floating: #0A0A0A;
+    --background-accent: #1C1C1C;
+    --modal-background: #121212;
+    --popout-background: #0D0D0D;
+    --channeltextarea-background: #0A0A0A;
+    --input-background: #0D0D0D;
+    --deprecated-card-bg: var(--background-tertiary);
+    --deprecated-card-editable-bg: var(--background-tertiary);
+    
+    --background-modifier-hover: hsl(0, 0%, 10%, 40%);
+    --background-modifier-active: hsl(0, 0%, 10%, 55%);
+    --background-modifier-selected: hsl(0, 0%, 10%, 80%);
+    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+
+    --button-secondary-background: #262626;
+    --button-secondary-background-hover: #2E2E2E;
+    --button-secondary-background-active: #303030;
+    --button-secondary-background-disabled: #1F1F1F;
+
+    --scrollertrack-background: #0D0D0D;
+    --scrollerthumb-background: #1C1C1C;
+
+    /* || Text Colors */
+    --text-normal: white;
+    --text-muted: #969696;
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --channels-default: #8b8b8b;
+
+    /* || Interactive */
+    --channel-icon: var(--channels-default);
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #595959;
+}
