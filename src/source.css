@@ -13,10 +13,10 @@
     --input-background: #0D0D0D;
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);
-    --background-modifier-hover: hsl(0, 0%, 10%, 40%);
-    --background-modifier-active: hsl(0, 0%, 10%, 55%);
-    --background-modifier-selected: hsl(0, 0%, 10%, 80%);
-    --background-modifier-accent: hsla(0, 0%, 100%, 0.06);
+    --background-modifier-hover: rgba(25, 25, 25, 0.25);
+    --background-modifier-active: rgba(25, 25, 25, 0.45);
+    --background-modifier-selected: rgba(25, 25, 25, 0.5);
+    --background-modifier-accent: rgba(255, 255, 255, 0.06);
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;
     --button-secondary-background-active: #303030;
