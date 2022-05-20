@@ -13,9 +13,9 @@
     --input-background: #0D0D0D;
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);
-    --background-modifier-hover: rgba(25, 25, 25, 0.25);
-    --background-modifier-active: rgba(25, 25, 25, 0.45);
-    --background-modifier-selected: rgba(25, 25, 25, 0.5);
+    --background-modifier-hover: rgba(25, 25, 25, 0.2);
+    --background-modifier-active: rgba(25, 25, 25, 0.35);
+    --background-modifier-selected: rgba(25, 25, 25, 0.4);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;
@@ -290,10 +290,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 .scroller-3X7KbA {
     background-color: var(--background-primary);
 }
-.scroller-3X7KbA [class=circleIconButton-1VxDrg], .scroller-3X7KbA .childWrapper-1j_1ub {
-    background-color: var(--background-secondary-alt);
-}
+.scroller-3X7KbA [class=circleIconButton-1VxDrg], .scroller-3X7KbA .childWrapper-1j_1ub,
 .scroller-3X7KbA .folder-241Joy.hover-3m7-WT {
+    background-color: var(--background-secondary);
+}
+.scroller-3X7KbA .folder-241Joy, .scroller-3X7KbA .expandedFolderBackground-1kSAf6 {
     background-color: var(--background-tertiary);
 }
 
