@@ -1,5 +1,4 @@
 @use './abstracts/variables';
-
 @use './base/app';
 
 // components
@@ -29,6 +28,7 @@
 @use './components/popouts/noise-suppression';
 @use './components/popouts/pinned';
 @use './components/popouts/search';
+@use './components/popouts/stream-preview';
 @use './components/popouts/threads';
 
 // layout

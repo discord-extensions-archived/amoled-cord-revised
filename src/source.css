@@ -527,6 +527,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: var(--background-secondary-alt);
 }
 
+#app-mount .streamPreview-I7itZ6 {
+    background-color: var(--background-floating);
+}
+#app-mount .streamPreview-I7itZ6 .previewContainer-35LFgt {
+    background-color: var(--background-secondary);
+}
+
 .container-18GwIk, .header-3_zmOb {
     background-color: var(--background-floating);
 }
