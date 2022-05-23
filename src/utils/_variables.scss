@@ -1,3 +1,4 @@
+:root,
 .theme-dark,
 .theme-dark .theme-light {
     /* || Background Colors */
@@ -10,21 +11,26 @@
     --modal-background: #121212;
     --popout-background: #0D0D0D;
     --channeltextarea-background: #0A0A0A;
-    --input-background: #0D0D0D;
+    --input-background: #080808;
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);
     --deprecated-text-input-bg: var(--background-tertiary);
     --deprecated-text-input-border: var(--background-secondary);
     
-    --background-modifier-hover: rgba(25, 25, 25, 0.2);
-    --background-modifier-active: rgba(25, 25, 25, 0.35);
-    --background-modifier-selected: rgba(25, 25, 25, 0.45);
+    --background-modifier-hover: rgba(50, 50, 50, 0.2);
+    --background-modifier-active: rgba(50, 50, 50, 0.35);
+    --background-modifier-selected: rgba(50, 50, 50, 0.45);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
 
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;
     --button-secondary-background-active: #303030;
     --button-secondary-background-disabled: #1F1F1F;
+    --button-outline-primary-border: #262626;
+    --button-outline-primary-border-hover: #2E2E2E;
+    --button-outline-primary-background-hover: #2E2E2E;
+    --button-outline-primary-background-active: #303030;
+    --button-outline-primary-border-active: #303030;
 
     --scrollertrack-background: #0D0D0D;
     --scrollerthumb-background: #1C1C1C;

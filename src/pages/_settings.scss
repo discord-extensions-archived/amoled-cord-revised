@@ -2,6 +2,11 @@
 // * I really did not feel like sorting this.. if someone wants to, feel free.
 
 #app-mount {
+    .bar-1Bhnl9:not(.microphone-2RrrW7, .speaking-2Crrvt),
+    .markDash-yk2kJ- {
+        background-color: var(--background-secondary-alt);
+    }
+
     .sidebarRegionScroller-FXiQOh,
     .expandedInfo-1W31i3,
     .iconWrapper-1sOtkE {
@@ -24,8 +29,13 @@
     }
     .auditLog-1NVAY0 {
         border-color: var(--background-secondary-alt);
+        background-color: var(--background-tertiary);
+        .headerClickable-zGQJz3, .headerDefault-1e6yjj {
+            background-color: transparent;
+        }
     }
 
+    .default-1Tkeeg,
     .connection-YOVI9j,
     .subscriptionsRedirectContainer-zD3U79,
     .feature-2IUcBI,
@@ -40,7 +50,6 @@
     .preview-QJ3OG3,
     .preview-3k9WhO,
     .cameraWrapper-3a7Ngv,
-    .container-30qY7E,
     .notDetected-M3Ghh2,
     .itemFilled-1cPbtg[aria-checked="false"],
     .tierHeader-3q9jIw,
@@ -62,11 +71,15 @@
     .game-2f2vPC {
         box-shadow: 0 1px 0 0 var(--background-modifier-accent);
     }
+    .container-30qY7E {
+        border-color: var(--input-background);
+        background-color: var(--input-background);
+    }
 
     .codeRedemptionRedirect-2hYMSQ {
         border: none;
     }
-    .itemFilled-1cPbtg {
+    .hoverablePayment-lE1s4t, .itemFilled-1cPbtg {
         &:hover {
             background-color: var(--background-modifier-hover);
         }
@@ -75,6 +88,16 @@
         }
     }
     .avatarUploaderInnerSquareDisabled-3M9eJS {
+        background-color: var(--background-accent);
+    }
+
+    .notches-2w7UZJ.gray-3wP137 {
+        background-image: none;
+        background-color: var(--background-primary);
+        -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+        mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+    }
+    .progress-1S-TDF {
         background-color: var(--background-accent);
     }
 }

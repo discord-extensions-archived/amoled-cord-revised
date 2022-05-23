@@ -1,3 +1,4 @@
+:root,
 .theme-dark,
 .theme-dark .theme-light {
     /* || Background Colors */
@@ -10,19 +11,24 @@
     --modal-background: #121212;
     --popout-background: #0D0D0D;
     --channeltextarea-background: #0A0A0A;
-    --input-background: #0D0D0D;
+    --input-background: #080808;
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);
     --deprecated-text-input-bg: var(--background-tertiary);
     --deprecated-text-input-border: var(--background-secondary);
-    --background-modifier-hover: rgba(25, 25, 25, 0.2);
-    --background-modifier-active: rgba(25, 25, 25, 0.35);
-    --background-modifier-selected: rgba(25, 25, 25, 0.45);
+    --background-modifier-hover: rgba(50, 50, 50, 0.2);
+    --background-modifier-active: rgba(50, 50, 50, 0.35);
+    --background-modifier-selected: rgba(50, 50, 50, 0.45);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;
     --button-secondary-background-active: #303030;
     --button-secondary-background-disabled: #1F1F1F;
+    --button-outline-primary-border: #262626;
+    --button-outline-primary-border-hover: #2E2E2E;
+    --button-outline-primary-background-hover: #2E2E2E;
+    --button-outline-primary-background-active: #303030;
+    --button-outline-primary-border-active: #303030;
     --scrollertrack-background: #0D0D0D;
     --scrollerthumb-background: #1C1C1C;
     /* || Text Colors */
@@ -45,8 +51,9 @@ body, #app-mount, .bg-1QIAus {
 
 #app-mount .root-g14mjS {
     box-shadow: none;
+    background-color: var(--modal-background);
 }
-#app-mount .root-g14mjS .footer-31IekZ {
+#app-mount .root-g14mjS .footer-31IekZ, #app-mount .root-g14mjS .footer-VCsJQY {
     box-shadow: none;
     color: var(--text-normal);
     background-color: var(--background-tertiary);
@@ -366,6 +373,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--modal-background);
 }
 
+.preview-x-26h- .previewDark-3Xp3UB {
+    background-color: var(--background-primary);
+}
+.preview-x-26h- .previewLight-IOzFhi {
+    display: none;
+}
+
 #app-mount .autocomplete-3NRXG8 {
     background-color: var(--popout-background);
 }
@@ -465,6 +479,21 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
 }
 
+#app-mount .colorPickerCustom-1swUKF {
+    background-color: var(--popout-background);
+    border-color: var(--background-tertiary);
+}
+
+#app-mount .noiseCancellationPopout-2-e5Xz {
+    background-color: var(--popout-background);
+}
+#app-mount .noiseCancellationPopout-2-e5Xz .notches-2w7UZJ.black-11MaxJ {
+    background-image: none;
+    background-color: var(--popout-background);
+    -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+    mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+}
+
 #app-mount .embedFull-1HGV2S {
     border-color: var(--background-secondary-alt);
     background: var(--background-tertiary);
@@ -509,6 +538,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-modifier-active);
 }
 
+#app-mount .bar-1Bhnl9:not(.microphone-2RrrW7, .speaking-2Crrvt),
+#app-mount .markDash-yk2kJ- {
+    background-color: var(--background-secondary-alt);
+}
 #app-mount .sidebarRegionScroller-FXiQOh,
 #app-mount .expandedInfo-1W31i3,
 #app-mount .iconWrapper-1sOtkE {
@@ -529,7 +562,12 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .auditLog-1NVAY0 {
     border-color: var(--background-secondary-alt);
+    background-color: var(--background-tertiary);
 }
+#app-mount .auditLog-1NVAY0 .headerClickable-zGQJz3, #app-mount .auditLog-1NVAY0 .headerDefault-1e6yjj {
+    background-color: transparent;
+}
+#app-mount .default-1Tkeeg,
 #app-mount .connection-YOVI9j,
 #app-mount .subscriptionsRedirectContainer-zD3U79,
 #app-mount .feature-2IUcBI,
@@ -544,7 +582,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .preview-QJ3OG3,
 #app-mount .preview-3k9WhO,
 #app-mount .cameraWrapper-3a7Ngv,
-#app-mount .container-30qY7E,
 #app-mount .notDetected-M3Ghh2,
 #app-mount .itemFilled-1cPbtg[aria-checked=false],
 #app-mount .tierHeader-3q9jIw,
@@ -566,16 +603,29 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .game-2f2vPC {
     box-shadow: 0 1px 0 0 var(--background-modifier-accent);
 }
+#app-mount .container-30qY7E {
+    border-color: var(--input-background);
+    background-color: var(--input-background);
+}
 #app-mount .codeRedemptionRedirect-2hYMSQ {
     border: none;
 }
-#app-mount .itemFilled-1cPbtg:hover {
+#app-mount .hoverablePayment-lE1s4t:hover, #app-mount .itemFilled-1cPbtg:hover {
     background-color: var(--background-modifier-hover);
 }
-#app-mount .itemFilled-1cPbtg:active {
+#app-mount .hoverablePayment-lE1s4t:active, #app-mount .itemFilled-1cPbtg:active {
     background-color: var(--background-modifier-active);
 }
 #app-mount .avatarUploaderInnerSquareDisabled-3M9eJS {
+    background-color: var(--background-accent);
+}
+#app-mount .notches-2w7UZJ.gray-3wP137 {
+    background-image: none;
+    background-color: var(--background-primary);
+    -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+    mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+}
+#app-mount .progress-1S-TDF {
     background-color: var(--background-accent);
 }
 
@@ -620,10 +670,28 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt {
     background-color: var(--background-primary);
 }
-#app-mount .background-fkKrXt .interactiveCard-2iMtdk,
+#app-mount .background-fkKrXt .card-3x20HF,
 #app-mount .background-fkKrXt .container-2Hi7Km,
-#app-mount .background-fkKrXt .container-xwOzwi {
+#app-mount .background-fkKrXt .container-xwOzwi,
+#app-mount .background-fkKrXt .wrapper-15CKyy {
     background-color: var(--background-tertiary);
+}
+#app-mount .background-fkKrXt .icon-2IDTxf {
+    border-color: var(--background-tertiary);
+}
+#app-mount .background-fkKrXt .iconContainer-2R-3M1 {
+    background-color: var(--background-primary);
+}
+@media (max-width: 1300px) {
+    #app-mount .background-fkKrXt .container-xwOzwi {
+        background-color: var(--background-primary);
+    }
+    #app-mount .background-fkKrXt .container-3HMTms {
+        background-color: var(--background-tertiary);
+    }
+}
+#app-mount .background-fkKrXt .headerBarInner-2pcZSM::after {
+    background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-primary));
 }
 
 #app-mount .container-3wLKDe {

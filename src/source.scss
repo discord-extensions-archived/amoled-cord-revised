@@ -18,12 +18,15 @@
 @use './components/modals/guild';
 @use './components/modals/events';
 @use './components/modals/quickswitcher';
+@use './components/modals/stickers';
 @use './components/popouts/autocomplete';
 @use './components/popouts/search';
 @use './components/popouts/pinned';
 @use './components/popouts/inbox';
 @use './components/popouts/threads';
-@use './components/popouts/drawerPicker';
+@use './components/popouts/drawer-picker';
+@use './components/popouts/color-picker';
+@use './components/popouts/noise-suppression';
 
 @use './pages/chat';
 @use './pages/voice';
