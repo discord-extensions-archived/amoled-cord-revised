@@ -1,4 +1,6 @@
 # AMOLED-Cord V4
-This is a test repo, I'm mainly looking for feedback. Please look for anything that may not be themed, as well as how well colors mesh together.
+This is a temporary repository to gather feedback on v4 of AMOLED-Cord (hopefully, this is the last time I have to do something like this).
 
-The point of this rework is to make it an actual AMOLED theme. If you have any feedback, make an issue on this repository.
+The purpose of this ~~yet another~~ rework is to make it more optimzied for OLED screens. I need feedback mainly on if colors blend too well together, as well as anything I have missed.
+
+If you'd like to provide feedback, please either make an issue on this repo, or join my [support server](https://discord.gg/vYdXbEzqDs) and ping me with your feedback.
