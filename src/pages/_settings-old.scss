@@ -1,0 +1,88 @@
+// * || UNNECESSARY NOTE
+// * I really did not feel like sorting this.. if someone wants to, feel free.
+
+#app-mount {
+    .sidebarRegionScroller-FXiQOh,
+    .expandedInfo-1W31i3,
+    .iconWrapper-1sOtkE {
+        background-color: var(--background-primary);
+    }
+    .bottomDivider-ZmTm-j {
+        border-bottom-color: var(--background-primary);
+    }
+
+    .connectionHeader-Ixbb1s,
+    .tierBody-1d3UiS,
+    .guildHeader-1EPPBS,
+    .headerExpanded-1-zwDr {
+        background-color: var(--background-secondary);
+    }
+
+    .background-3d_SjE, .fieldList-in8WkP,
+    .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+        background-color: var(--background-secondary-alt);
+    }
+    .auditLog-1NVAY0 {
+        border-color: var(--background-secondary-alt);
+        background-color: var(--background-tertiary);
+        .headerClickable-zGQJz3, .headerDefault-1e6yjj {
+            background-color: transparent;
+        }
+    }
+
+    .default-1Tkeeg,
+    .connection-YOVI9j,
+    .subscriptionsRedirectContainer-zD3U79,
+    .feature-2IUcBI,
+    .guildSubscriptionSlots-1i_C21,
+    .accountList-Wii_T5,
+    .detailsBlock-24pLFz,
+    .accountCredit-1gEVAQ,
+    .paymentPane-ut5qKZ,
+    .paginator-1eqD2g,
+    .bottomDivider-ZmTm-j,
+    .codeRedemptionRedirect-2hYMSQ,
+    .preview-QJ3OG3,
+    .preview-3k9WhO,
+    .cameraWrapper-3a7Ngv,
+    .notDetected-M3Ghh2,
+    .itemFilled-1cPbtg[aria-checked="false"],
+    .tierHeader-3q9jIw,
+    .tierInProgress-1vFUnw,
+    .feature-2IUcBI,
+    .option-1QI4c9:not(.selected-18Wszc),
+    .container-3EtAkD,
+    .headerClickable-zGQJz3,
+    .changeDetails-1kMZqI,
+    .descriptionBox-SKGNgB,
+    .featureCard-3XHbjy,
+    .card-2EUiNF,
+    .settingCard-xZSDjS {
+        background-color: var(--background-tertiary);
+    }
+    .background-3xJH_4 {
+        color: var(--background-tertiary);
+    }
+    .game-2f2vPC {
+        box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+    }
+    .container-30qY7E {
+        border-color: var(--input-background);
+        background-color: var(--input-background);
+    }
+
+    .codeRedemptionRedirect-2hYMSQ {
+        border: none;
+    }
+    .hoverablePayment-lE1s4t, .itemFilled-1cPbtg {
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
+        &:active {
+            background-color: var(--background-modifier-active);
+        }
+    }
+    .avatarUploaderInnerSquareDisabled-3M9eJS {
+        background-color: var(--background-accent);
+    }
+}

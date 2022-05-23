@@ -1,12 +1,21 @@
 .messagesPopoutWrap-3zryHW, .recentMentionsPopout-2bI1ZN {
     .channelHeader-DFRX8q {
-        background-color: var(--popout-background);
+        background-color: var(--background-floating);
     }
     .jumpButton-1V_1FA {
+        background-color: var(--background-secondary);
+    }
+    .button-1_oXub {
         background-color: var(--background-primary);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
+        &:active {
+            background-color: var(--background-modifier-active);
+        }
     }
 }
 .messagesPopoutWrap-3zryHW .messageContainer-3VTXBC,
 .recentMentionsPopout-2bI1ZN .messages-23can0 {
-    background-color: var(--background-secondary);
+    background-color: var(--background-primary);
 }

@@ -1,10 +1,17 @@
 #app-mount .container-2cd8Mz {
     background-color: var(--background-primary);
     .itemCard-3Etziu {
-        border: none;
-        background-color: var(--background-secondary);
+        border-color: var(--card-border);
+        background-color: var(--card-background);
         &:hover {
-            background-color: var(--background-tertiary);
+            background-color: var(--background-modifier-hover);
         }
+    }
+    .inset-SbsSFp {
+        border: 1px solid var(--card-border);
+        background-color: var(--card-background);
+    }
+    .separator-2OaeRP {
+        background-color: var(--card-border);
     }
 }

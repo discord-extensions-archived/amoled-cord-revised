@@ -17,10 +17,10 @@
     }
     .container-2McqkF {
         box-shadow: none;
-        background-color: var(--popout-background);
+        background-color: var(--background-floating);
         .focused-2FU0YH {
             border-bottom: none;
-            background-color: var(--popout-background);
+            background-color: var(--background-floating);
         }
         .option-ayUoaq {
             &::after {
@@ -31,7 +31,7 @@
     .calendarPicker-sDhzdi {
         .react-datepicker,
         .react-datepicker__header {
-            background-color: var(--popout-background);
+            background-color: var(--background-floating);
         }
         .react-datepicker__navigation.react-datepicker__navigation--next,
         .react-datepicker__navigation.react-datepicker__navigation--previous {

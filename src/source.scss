@@ -1,38 +1,46 @@
-@use './utils/variables';
+@use './abstracts/variables';
 
 @use './base/app';
 
-@use './components/modals';
-@use './components/popouts';
+// components
 @use './components/buttons';
-@use './components/scrollers';
 @use './components/hljs';
-@use './components/theme-warning';
-@use './components/guilds';
+@use './components/inputs';
 @use './components/members';
-@use './components/sidebar';
-@use './components/titlebar';
-@use './components/modals/stream';
+@use './components/scrollers';
+@use './components/theme-warning';
+@use './components/voice';
+
+// modal components
+@use './components/modal';
 @use './components/modals/create-server';
-@use './components/modals/keybinds';
-@use './components/modals/guild';
 @use './components/modals/events';
+@use './components/modals/keybinds';
 @use './components/modals/quickswitcher';
 @use './components/modals/stickers';
-@use './components/popouts/autocomplete';
-@use './components/popouts/search';
-@use './components/popouts/pinned';
-@use './components/popouts/inbox';
-@use './components/popouts/threads';
-@use './components/popouts/drawer-picker';
-@use './components/popouts/color-picker';
-@use './components/popouts/noise-suppression';
+@use './components/modals/stream';
 
-@use './pages/chat';
-@use './pages/voice';
-@use './pages/settings';
-@use './pages/friends';
-@use './pages/discover';
+// popout components
+@use './components/popout';
+@use './components/popouts/autocomplete';
+@use './components/popouts/color-picker';
+@use './components/popouts/drawer-picker';
+@use './components/popouts/inbox';
+@use './components/popouts/noise-suppression';
+@use './components/popouts/pinned';
+@use './components/popouts/search';
+@use './components/popouts/threads';
+
+// layout
+@use './layout/guilds';
+@use './layout/sidebar';
+@use './layout/titlebar';
+
+// pages
 @use './pages/boost';
+@use './pages/chat';
+@use './pages/discover';
+@use './pages/friends';
 @use './pages/guild-home';
 @use './pages/guild-threads';
+@use './pages/settings';

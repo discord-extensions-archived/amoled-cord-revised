@@ -1,6 +1,13 @@
 .container-18GwIk, .header-3_zmOb {
-    background-color: var(--popout-background);
+    background-color: var(--background-floating);
 }
 .container-18GwIk .container-2rzKKA {
-    background-color: var(--background-tertiary);
+    border-color: var(--background-primary);
+    background-color: var(--background-primary);
+    &:hover {
+        border-color: var(--background-secondary);
+    }
+    &:active {
+        border-color: var(--background-secondary-alt);
+    }
 }

@@ -1,10 +1,7 @@
 .contentWrapper-3vHNP2, .emojiPicker-6YCk8a {
-    background-color: var(--popout-background);
-    .container-1SX9VC, .container-2oNtJn {
-        background-color: var(--input-background);
-    }
+    background-color: var(--background-floating);
     .emojiPickerListWrapper-1T3YI3, .wrapper-1NNaWG {
-        background-color: var(--background-tertiary);
+        background-color: var(--background-floating);
     }
     .imageLoading-2uloYN {
         border-radius: 30%;
@@ -14,4 +11,10 @@
 }
 .wrapper-22rqw6 {
     background-color: var(--background-secondary);
+    .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover {
+        background-color: var(--background-modifier-selected);
+    }
+}
+.inspector-DFKXwB {
+    background-color: var(--background-secondary-alt);
 }

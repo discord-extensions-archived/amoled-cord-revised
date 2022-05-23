@@ -1,4 +1,14 @@
-.root-wwggTZ {
+.root-g14mjS {
+    .progressBar-18rmp1:not(.selectedProgressBar-11z5d9) {
+        background-color: var(--background-accent);
+    }
+    .card-8UsK4b {
+        border-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary-alt);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
+    }
     .contentContainer-BWAau5 {
         background-color: var(--modal-background);
     }

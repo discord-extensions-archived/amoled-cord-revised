@@ -1,11 +1,12 @@
 #app-mount .container-3wLKDe {
     background-color: var(--background-primary);
     .mainCard-3KBsBI,
-    .sidebarCard-1Gn1ch {
-        border-color: var(--background-tertiary);
-        background-color: var(--background-tertiary);
-    }
+    .sidebarCard-1Gn1ch,
     .container-2IhveL {
-        background-color: var(--background-tertiary);
+        border: 1px solid var(--card-border);
+        background-color: var(--background-primary);
+    }
+    .pill-3pRQlO {
+        background-color: var(--background-secondary);
     }
 }
