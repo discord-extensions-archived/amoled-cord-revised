@@ -13,9 +13,11 @@
     --input-background: #0D0D0D;
     --deprecated-card-bg: var(--background-tertiary);
     --deprecated-card-editable-bg: var(--background-tertiary);
+    --deprecated-text-input-bg: var(--background-tertiary);
+    --deprecated-text-input-border: var(--background-secondary);
     --background-modifier-hover: rgba(25, 25, 25, 0.2);
     --background-modifier-active: rgba(25, 25, 25, 0.35);
-    --background-modifier-selected: rgba(25, 25, 25, 0.4);
+    --background-modifier-selected: rgba(25, 25, 25, 0.45);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;
@@ -360,11 +362,18 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--modal-background);
 }
 
+.quickswitcher-pKcM9U, .scroller-2qwVWY {
+    background-color: var(--modal-background);
+}
+
 #app-mount .autocomplete-3NRXG8 {
     background-color: var(--popout-background);
 }
 #app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
     background-color: var(--popout-background);
+}
+#app-mount .autocomplete-3NRXG8 .clickable-2V8YKY[aria-disabled=false] .base-2v-uc0:hover, #app-mount .autocomplete-3NRXG8 .clickable-2V8YKY[aria-selected=true] .base-2v-uc0 {
+    background-color: var(--background-modifier-selected);
 }
 
 #app-mount .searchResultsWrap-5RVOkx, #app-mount .channelName-3w2Y3c, #app-mount .searchHeader-1r_ZSh {
@@ -606,4 +615,25 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 .perksModal-CLcR1c .tierHeaderLocked-3ItHYn {
     background-color: var(--background-secondary);
+}
+
+#app-mount .background-fkKrXt {
+    background-color: var(--background-primary);
+}
+#app-mount .background-fkKrXt .interactiveCard-2iMtdk,
+#app-mount .background-fkKrXt .container-2Hi7Km,
+#app-mount .background-fkKrXt .container-xwOzwi {
+    background-color: var(--background-tertiary);
+}
+
+#app-mount .container-3wLKDe {
+    background-color: var(--background-primary);
+}
+#app-mount .container-3wLKDe .mainCard-3KBsBI,
+#app-mount .container-3wLKDe .sidebarCard-1Gn1ch {
+    border-color: var(--background-tertiary);
+    background-color: var(--background-tertiary);
+}
+#app-mount .container-3wLKDe .container-2IhveL {
+    background-color: var(--background-tertiary);
 }

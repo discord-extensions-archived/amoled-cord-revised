@@ -17,6 +17,7 @@
 @use './components/modals/keybinds';
 @use './components/modals/guild';
 @use './components/modals/events';
+@use './components/modals/quickswitcher';
 @use './components/popouts/autocomplete';
 @use './components/popouts/search';
 @use './components/popouts/pinned';
@@ -30,3 +31,5 @@
 @use './pages/friends';
 @use './pages/discover';
 @use './pages/boost';
+@use './pages/guild-home';
+@use './pages/guild-threads';

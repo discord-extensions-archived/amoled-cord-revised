@@ -3,4 +3,7 @@
     .categoryHeader-OpJ1Ly {
         background-color: var(--popout-background);
     }
+    .clickable-2V8YKY[aria-disabled=false] .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true] .base-2v-uc0 {
+        background-color: var(--background-modifier-selected);
+    }
 }
