@@ -15,11 +15,28 @@
     // || cards
     .cardPrimary-3qRT__,
     .cardPrimaryEditable-2mz_3i {
-        border-color: var(--background-secondary);
-        background-color: var(--background-tertiary);
+        border-color: var(--card-border);
+        background-color: var(--card-background);
     }
     .cardPrimaryOutline-1ofwVz {
-        border-color: var(--background-secondary);
+        border-color: var(--card-border);
+    }
+    .settingCard-xZSDjS {
+        background-color: var(--card-background);
+    }
+    .iconWrapper-1sOtkE {
+        background-color: var(--background-primary);
+    }
+    // permissions
+    .group-LWHoGI {
+        border: 1px solid var(--background-secondary);
+        .passthrough--fbdFR.selected-3jieYB {
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    // save
+    .elevationHigh-28Pty4 {
+        background-color: var(--background-secondary) !important;
     }
 
     // |user
@@ -74,8 +91,25 @@
         border-color: var(--card-border);
         background-color: var(--background-primary);
     }
+    .backgroundOptionInner-SSz19O {
+        background-color: var(--background-primary);
+    }
+    // activity
+    .game-2f2vPC {
+        box-shadow: none;
+        border-bottom: 1px solid var(--background-modifier-accent);
+    }
 
     // |server
+    // ||integrations
+    .card-2L21B2 {
+        .cardHeader-3d6H8N {
+            background-color: var(--background-secondary);            
+        }
+        .item-14XeNr:not(.selected-I4nkOo) {
+            background-color: var(--background-secondary-alt);
+        }
+    }
     // ||stickers
     .tierHeaderLocked-30MLlO,
     .tierInProgress-1vFUnw  {

@@ -1,30 +1,39 @@
 #app-mount {
+    .input-2z42oC,
     .input-2g-os5,
     .searchBar-3TnChZ .searchBarComponent-3N7dCG,
-    .search-2Mwzzq,
-    .lookFilled-1GseHa.select-1Ia3hD,
+    .searchBox-pyIJJj,
     .container-2oNtJn,
     .addFriendInputWrapper-kkoSV9,
-    .card-m7VgZ8,
-    .container-1SX9VC, .container-2oNtJn,
-    .container-30qY7E,
-    .copyInput-3AbKWB {
-        border-radius: 4px;
+    .channelTextArea-1VQBuV,
+    .lookFilled-1GseHa.select-1Ia3hD,
+    .container-30qY7E {
         border: 1px solid var(--input-border);
         background-color: var(--input-background);
     }
-    .channelTextArea-1VQBuV,
-    .input-3r5zZY {
+    .search-39IXmY {
         border: 1px solid var(--input-border);
+        border-radius: 3px;
+    }
+    .searchBar-jGtisZ {
+        background-color: var(--input-background);
+    }
+    .search-2Mwzzq .DraftEditor-root {
+        padding: 1px 0;
+    }
+    .searchBoxInput-P0mWHW,
+    .searchBox-31Zv9h {
+        border: none;
+        background: white;
     }
     .textarea-_59yqs,
-    .addFriendInputWrapper-kkoSV9 .input-2g-os5,
-    .titleContainer-2YK93J .input-2g-os5,
-    .searchBar-jGtisZ,
-    .bodyContainer-3GUwqv .channelTextArea-1VQBuV {
+    .input-1bmui3,
+    .form-25Aujy .input-2g-os5,
+    .form-25Aujy .channelTextArea-1VQBuV {
         border: none;
-        background-color: transparent;
+        background: transparent;
     }
+    
     .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
     .container-1_EVMa:not(.disabled-3S7pz8):hover {
         border-color: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,.3);

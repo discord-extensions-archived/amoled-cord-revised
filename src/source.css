@@ -6,23 +6,18 @@
     --background-secondary: #121212;
     --background-secondary-alt: #1C1C1C;
     --background-tertiary: #080808;
-    --background-floating: #0A0A0A;
-    --background-accent: #1C1C1C;
-    --modal-background: #0D0D0D;
-    --input-background: #050505;
-    --input-border: #171717;
-    --card-background: var(--background-primary);
-    --card-border: #171717;
-    --channeltextarea-background: #050505;
-    --deprecated-card-bg: var(--background-primary);
-    --deprecated-card-editable-bg: var(--background-primary);
-    --deprecated-text-input-bg: var(--background-primary);
-    --deprecated-text-input-border: #171717;
-    --activity-card-border: #1C1C1C;
+    --background-accent: #212121;
     --background-modifier-hover: rgba(35, 35, 35, 0.25);
     --background-modifier-active: rgba(40, 40, 40, 0.3);
     --background-modifier-selected: rgba(40, 40, 40, 0.4);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
+    --background-floating: #0A0A0A;
+    --modal-background: #0D0D0D;
+    --input-background: #050505;
+    --input-border: #171717;
+    --channeltextarea-background: #050505;
+    --card-background: #080808;
+    --card-border: #1C1C1C;
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;
     --button-secondary-background-active: #303030;
@@ -68,6 +63,25 @@ body, #app-mount, .bg-1QIAus {
 
 .itemFilled-1cPbtg {
     background-color: var(--background-tertiary);
+}
+
+#app-mount .react-datepicker,
+#app-mount .react-datepicker__header {
+    background-color: var(--background-floating);
+}
+#app-mount .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .react-datepicker__navigation.react-datepicker__navigation--previous {
+    background-color: var(--background-secondary);
+}
+#app-mount .react-datepicker__day--disabled,
+#app-mount .react-datepicker__day--outside-month,
+#app-mount .react-datepicker__day.react-datepicker__day--disabled,
+#app-mount .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: var(--background-tertiary);
+}
+#app-mount .react-datepicker__day,
+#app-mount .react-datepicker__day:last-of-type {
+    border-color: var(--background-secondary-alt);
 }
 
 /*!
@@ -212,31 +226,39 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     font-weight: bold;
 }
 
+#app-mount .input-2z42oC,
 #app-mount .input-2g-os5,
 #app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
-#app-mount .search-2Mwzzq,
-#app-mount .lookFilled-1GseHa.select-1Ia3hD,
+#app-mount .searchBox-pyIJJj,
 #app-mount .container-2oNtJn,
 #app-mount .addFriendInputWrapper-kkoSV9,
-#app-mount .card-m7VgZ8,
-#app-mount .container-1SX9VC, #app-mount .container-2oNtJn,
-#app-mount .container-30qY7E,
-#app-mount .copyInput-3AbKWB {
-    border-radius: 4px;
+#app-mount .channelTextArea-1VQBuV,
+#app-mount .lookFilled-1GseHa.select-1Ia3hD,
+#app-mount .container-30qY7E {
     border: 1px solid var(--input-border);
     background-color: var(--input-background);
 }
-#app-mount .channelTextArea-1VQBuV,
-#app-mount .input-3r5zZY {
+#app-mount .search-39IXmY {
     border: 1px solid var(--input-border);
+    border-radius: 3px;
+}
+#app-mount .searchBar-jGtisZ {
+    background-color: var(--input-background);
+}
+#app-mount .search-2Mwzzq .DraftEditor-root {
+    padding: 1px 0;
+}
+#app-mount .searchBoxInput-P0mWHW,
+#app-mount .searchBox-31Zv9h {
+    border: none;
+    background: white;
 }
 #app-mount .textarea-_59yqs,
-#app-mount .addFriendInputWrapper-kkoSV9 .input-2g-os5,
-#app-mount .titleContainer-2YK93J .input-2g-os5,
-#app-mount .searchBar-jGtisZ,
-#app-mount .bodyContainer-3GUwqv .channelTextArea-1VQBuV {
+#app-mount .input-1bmui3,
+#app-mount .form-25Aujy .input-2g-os5,
+#app-mount .form-25Aujy .channelTextArea-1VQBuV {
     border: none;
-    background-color: transparent;
+    background: transparent;
 }
 #app-mount .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
 #app-mount .container-1_EVMa:not(.disabled-3S7pz8):hover {
@@ -309,25 +331,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
         box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
     }
 }
-.callContainer-BGIngG,
-.container-cH6QoY,
-.scroller-35tvpe,
-.rowContainer-jDvyA4,
-.container-3r7mfc,
-.wrapper-1gVUIN.minimum-fXpVNc {
-    background-color: var(--background-primary);
-}
-
-.container-1IyjjY {
-    background-color: var(--background-tertiary);
-}
-.container-1IyjjY:hover {
-    background-color: var(--background-modifier-hover);
-}
-.container-1IyjjY:active {
-    background-color: var(--background-modifier-active);
-}
-
 #app-mount .root-g14mjS {
     box-shadow: none;
     background-color: var(--modal-background);
@@ -335,6 +338,15 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .footer-31IekZ, #app-mount .root-g14mjS .footer-VCsJQY {
     box-shadow: none;
     color: var(--text-normal);
+    background-color: var(--background-tertiary);
+}
+
+#app-mount .animatedNode-zo4rIT .authBox-1HR6Ha {
+    box-shadow: none;
+    background-color: var(--modal-background);
+}
+#app-mount .animatedNode-zo4rIT .navRow-dG-XX8 {
+    box-shadow: none;
     background-color: var(--background-tertiary);
 }
 
@@ -400,6 +412,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-2O1UgZ {
     box-shadow: none;
     border-color: var(--background-primary);
+    background-color: var(--background-floating);
+}
+
+#app-mount .addGamePopout-2SKNIV {
+    box-shadow: none;
     background-color: var(--background-floating);
 }
 
@@ -516,24 +533,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-2McqkF .option-ayUoaq::after {
     background: none;
 }
-#app-mount .calendarPicker-sDhzdi .react-datepicker,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__header {
-    background-color: var(--background-floating);
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--next,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__navigation.react-datepicker__navigation--previous {
-    background-color: var(--background-secondary);
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day--disabled,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day--outside-month,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day.react-datepicker__day--disabled:hover {
-    background-color: var(--background-tertiary);
-}
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day,
-#app-mount .calendarPicker-sDhzdi .react-datepicker__day:last-of-type {
-    border-color: var(--background-secondary-alt);
-}
 
 #app-mount .streamPreview-I7itZ6 {
     background-color: var(--background-floating);
@@ -555,6 +554,14 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 .container-18GwIk .container-2rzKKA:active {
     border-color: var(--background-secondary-alt);
+}
+
+#app-mount .tooltipGrey-lpLZjh {
+    color: var(--text-normal);
+    background-color: var(--background-floating);
+}
+#app-mount .tooltipGrey-lpLZjh .tooltipPointer-3L49xb {
+    border-top-color: var(--background-floating);
 }
 
 .scroller-3X7KbA {
@@ -595,7 +602,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     top: 6px;
 }
 .typeWindows-2-g3UY .wordmark-2u86JB {
-    margin-left: 13px;
+    margin-left: 14px;
     color: #595959;
 }
 
@@ -683,6 +690,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .card-3x20HF,
 #app-mount .background-fkKrXt .container-2Hi7Km,
 #app-mount .background-fkKrXt .container-xwOzwi,
+#app-mount .background-fkKrXt .container-3rZ3XA,
 #app-mount .background-fkKrXt .wrapper-15CKyy {
     background-color: var(--background-tertiary);
 }
@@ -731,11 +739,26 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .cardPrimary-3qRT__,
 #app-mount .cardPrimaryEditable-2mz_3i {
-    border-color: var(--background-secondary);
-    background-color: var(--background-tertiary);
+    border-color: var(--card-border);
+    background-color: var(--card-background);
 }
 #app-mount .cardPrimaryOutline-1ofwVz {
-    border-color: var(--background-secondary);
+    border-color: var(--card-border);
+}
+#app-mount .settingCard-xZSDjS {
+    background-color: var(--card-background);
+}
+#app-mount .iconWrapper-1sOtkE {
+    background-color: var(--background-primary);
+}
+#app-mount .group-LWHoGI {
+    border: 1px solid var(--background-secondary);
+}
+#app-mount .group-LWHoGI .passthrough--fbdFR.selected-3jieYB {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .elevationHigh-28Pty4 {
+    background-color: var(--background-secondary) !important;
 }
 #app-mount .accountList-Wii_T5 {
     background-color: var(--background-tertiary);
@@ -782,6 +805,19 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: var(--card-border);
     background-color: var(--background-primary);
 }
+#app-mount .backgroundOptionInner-SSz19O {
+    background-color: var(--background-primary);
+}
+#app-mount .game-2f2vPC {
+    box-shadow: none;
+    border-bottom: 1px solid var(--background-modifier-accent);
+}
+#app-mount .card-2L21B2 .cardHeader-3d6H8N {
+    background-color: var(--background-secondary);
+}
+#app-mount .card-2L21B2 .item-14XeNr:not(.selected-I4nkOo) {
+    background-color: var(--background-secondary-alt);
+}
 #app-mount .tierHeaderLocked-30MLlO,
 #app-mount .tierInProgress-1vFUnw {
     background-color: var(--background-tertiary);
@@ -810,4 +846,28 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .card-WWLYDO, #app-mount .iconMask-1EYGrv {
     background-color: var(--background-tertiary);
+}
+
+.callContainer-BGIngG,
+.container-cH6QoY,
+.scroller-35tvpe,
+.rowContainer-jDvyA4,
+.container-3r7mfc,
+.wrapper-1gVUIN.minimum-fXpVNc,
+.participants-3hk3ND {
+    background-color: var(--background-primary);
+}
+
+.container-1IyjjY {
+    background-color: var(--background-tertiary);
+}
+.container-1IyjjY:hover {
+    background-color: var(--background-modifier-hover);
+}
+.container-1IyjjY:active {
+    background-color: var(--background-modifier-active);
+}
+
+.iconBackground-3qSXiM {
+    background-color: var(--background-secondary);
 }

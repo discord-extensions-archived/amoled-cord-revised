@@ -6,24 +6,18 @@
     --background-secondary: #121212;
     --background-secondary-alt: #1C1C1C;
     --background-tertiary: #080808;
-    --background-floating: #0A0A0A;
-    --background-accent: #1C1C1C;
-    --modal-background: #0D0D0D;
-    --input-background: #050505;
-    --input-border: #171717;
-    --card-background: var(--background-primary);
-    --card-border: #171717;
-    --channeltextarea-background: #050505;
-    --deprecated-card-bg: var(--background-primary);
-    --deprecated-card-editable-bg: var(--background-primary);
-    --deprecated-text-input-bg: var(--background-primary);
-    --deprecated-text-input-border: #171717;
-    --activity-card-border: #1C1C1C;
-    
+    --background-accent: #212121;
     --background-modifier-hover: rgba(35, 35, 35, 0.25);
     --background-modifier-active: rgba(40, 40, 40, 0.3);
     --background-modifier-selected: rgba(40, 40, 40, 0.4);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
+    --background-floating: #0A0A0A;
+    --modal-background: #0D0D0D;
+    --input-background: #050505;
+    --input-border: #171717;
+    --channeltextarea-background: #050505;
+    --card-background: #080808;
+    --card-border: #1C1C1C;
 
     --button-secondary-background: #262626;
     --button-secondary-background-hover: #2E2E2E;

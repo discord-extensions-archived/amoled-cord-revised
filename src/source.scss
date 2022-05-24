@@ -3,15 +3,16 @@
 
 // components
 @use './components/buttons';
+@use './components/date-picker';
 @use './components/hljs';
 @use './components/inputs';
 @use './components/members';
 @use './components/scrollers';
 @use './components/theme-warning';
-@use './components/voice';
 
 // modal components
 @use './components/modal';
+@use './components/modals/add-account';
 @use './components/modals/create-server';
 @use './components/modals/events';
 @use './components/modals/keybinds';
@@ -21,6 +22,7 @@
 
 // popout components
 @use './components/popout';
+@use './components/popouts/add-game';
 @use './components/popouts/autocomplete';
 @use './components/popouts/color-picker';
 @use './components/popouts/drawer-picker';
@@ -31,6 +33,7 @@
 @use './components/popouts/search';
 @use './components/popouts/stream-preview';
 @use './components/popouts/threads';
+@use './components/popouts/tooltips';
 
 // layout
 @use './layout/guilds';
@@ -45,3 +48,4 @@
 @use './pages/guild-home';
 @use './pages/guild-threads';
 @use './pages/settings';
+@use './pages/voice';
