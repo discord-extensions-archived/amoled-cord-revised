@@ -256,7 +256,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .textarea-_59yqs,
 #app-mount .input-1bmui3,
 #app-mount .form-25Aujy .input-2g-os5,
-#app-mount .form-25Aujy .channelTextArea-1VQBuV {
+#app-mount .form-25Aujy .channelTextArea-1VQBuV,
+#app-mount .rulesTextAreaInput-asSkdy {
     border: none;
     background: transparent;
 }
@@ -755,8 +756,15 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .iconWrapper-1sOtkE {
     background-color: var(--background-primary);
 }
+#app-mount .inModal-3SoQyx {
+    border-color: var(--card-border);
+    background-color: unset;
+}
 #app-mount .group-LWHoGI {
     border: 1px solid var(--background-secondary);
+}
+#app-mount .group-LWHoGI .item-4m-12I {
+    background-color: var(--background-tertiary);
 }
 #app-mount .group-LWHoGI .passthrough--fbdFR.selected-3jieYB {
     background-color: var(--background-secondary-alt);
@@ -816,6 +824,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     box-shadow: none;
     border-bottom: 1px solid var(--background-modifier-accent);
 }
+#app-mount .tierHeaderUnlocked-1OpOLf {
+    background-color: var(--background-tertiary);
+}
 #app-mount .card-2L21B2 .cardHeader-3d6H8N {
     background-color: var(--background-secondary);
 }
@@ -874,4 +885,12 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .iconBackground-3qSXiM {
     background-color: var(--background-secondary);
+}
+
+.separator-3FDGQ4 {
+    background-color: var(--background-modifier-accent);
+}
+
+.divider-vv_iHh {
+    border-color: var(--background-modifier-accent);
 }

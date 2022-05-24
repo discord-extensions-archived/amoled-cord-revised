@@ -27,9 +27,16 @@
     .iconWrapper-1sOtkE {
         background-color: var(--background-primary);
     }
+    .inModal-3SoQyx {
+        border-color: var(--card-border);
+        background-color: unset;
+    }
     // permissions
     .group-LWHoGI {
         border: 1px solid var(--background-secondary);
+        .item-4m-12I {
+            background-color: var(--background-tertiary);
+        }
         .passthrough--fbdFR.selected-3jieYB {
             background-color: var(--background-secondary-alt);
         }
@@ -101,6 +108,10 @@
     }
 
     // |server
+    // ||stickers
+    .tierHeaderUnlocked-1OpOLf {
+        background-color: var(--background-tertiary);
+    }
     // ||integrations
     .card-2L21B2 {
         .cardHeader-3d6H8N {
