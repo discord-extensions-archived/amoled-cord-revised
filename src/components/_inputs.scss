@@ -25,4 +25,8 @@
         border: none;
         background-color: transparent;
     }
+    .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
+    .container-1_EVMa:not(.disabled-3S7pz8):hover {
+        border-color: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,.3);
+    }
 }

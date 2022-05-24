@@ -13,25 +13,20 @@
         background-color: var(--background-secondary-alt);
     }
     // || cards
-    .card-16VQ8C,
     .cardPrimary-3qRT__,
-    .cardPrimaryEditable-2mz_3i,
+    .cardPrimaryEditable-2mz_3i {
+        border-color: var(--background-secondary);
+        background-color: var(--background-tertiary);
+    }
     .cardPrimaryOutline-1ofwVz {
-        border: 1px solid var(--card-border);
-        background-color: var(--background-primary);
-    }
-    .preview-3k9WhO {
-        border: none;
-        background-color: var(--background-tertiary);
-    }
-    .descriptionBox-SKGNgB,
-    .featureCard-3XHbjy,
-    .settingCard-xZSDjS {
-        background-color: var(--background-tertiary);
+        border-color: var(--background-secondary);
     }
 
     // |user
     // || connections
+    .accountList-Wii_T5 {
+        background-color: var(--background-tertiary);
+    }
     .connectionHeader-Ixbb1s {
         background-color: var(--background-secondary);
     }

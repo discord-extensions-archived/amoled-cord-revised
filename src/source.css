@@ -9,11 +9,11 @@
     --background-floating: #0A0A0A;
     --background-accent: #1C1C1C;
     --modal-background: #0D0D0D;
-    --input-background: var(--background-primary);
+    --input-background: #050505;
     --input-border: #171717;
     --card-background: var(--background-primary);
     --card-border: #171717;
-    --channeltextarea-background: var(--background-primary);
+    --channeltextarea-background: #050505;
     --deprecated-card-bg: var(--background-primary);
     --deprecated-card-editable-bg: var(--background-primary);
     --deprecated-text-input-bg: var(--background-primary);
@@ -237,6 +237,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .bodyContainer-3GUwqv .channelTextArea-1VQBuV {
     border: none;
     background-color: transparent;
+}
+#app-mount .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
+#app-mount .container-1_EVMa:not(.disabled-3S7pz8):hover {
+    border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
 }
 
 .container-2o3qEW, .members-3WRCEx, .members-3WRCEx > div {
@@ -725,20 +729,15 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .markDash-yk2kJ- {
     background-color: var(--background-secondary-alt);
 }
-#app-mount .card-16VQ8C,
 #app-mount .cardPrimary-3qRT__,
-#app-mount .cardPrimaryEditable-2mz_3i,
-#app-mount .cardPrimaryOutline-1ofwVz {
-    border: 1px solid var(--card-border);
-    background-color: var(--background-primary);
-}
-#app-mount .preview-3k9WhO {
-    border: none;
+#app-mount .cardPrimaryEditable-2mz_3i {
+    border-color: var(--background-secondary);
     background-color: var(--background-tertiary);
 }
-#app-mount .descriptionBox-SKGNgB,
-#app-mount .featureCard-3XHbjy,
-#app-mount .settingCard-xZSDjS {
+#app-mount .cardPrimaryOutline-1ofwVz {
+    border-color: var(--background-secondary);
+}
+#app-mount .accountList-Wii_T5 {
     background-color: var(--background-tertiary);
 }
 #app-mount .connectionHeader-Ixbb1s {
