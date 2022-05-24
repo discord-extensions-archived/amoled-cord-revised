@@ -683,6 +683,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-2cd8Mz .multipleIconWrapper-2YHnS6 {
     background-color: var(--background-primary);
 }
+#app-mount .container-2cd8Mz .previewContainer-3BJM_S {
+    background-color: var(--background-secondary);
+}
 
 #app-mount .background-fkKrXt {
     background-color: var(--background-primary);
@@ -691,6 +694,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .container-2Hi7Km,
 #app-mount .background-fkKrXt .container-xwOzwi,
 #app-mount .background-fkKrXt .container-3rZ3XA,
+#app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ,
 #app-mount .background-fkKrXt .wrapper-15CKyy {
     background-color: var(--background-tertiary);
 }
