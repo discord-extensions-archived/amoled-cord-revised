@@ -4,8 +4,7 @@
     .container-2Hi7Km,
     .container-xwOzwi,
     .wrapper-15CKyy {
-        border: 1px solid var(--card-border);
-        background-color: var(--background-primary);
+        background-color: var(--background-tertiary);
     }
     .icon-2IDTxf {
         border-color: var(--background-tertiary);
@@ -18,7 +17,6 @@
     }
     @media(max-width: 1300px) {
         .container-xwOzwi {
-            border: none;
             background-color: var(--background-primary);
         }
         .container-3HMTms {

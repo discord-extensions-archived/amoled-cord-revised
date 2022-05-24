@@ -18,6 +18,7 @@
     --deprecated-card-editable-bg: var(--background-primary);
     --deprecated-text-input-bg: var(--background-primary);
     --deprecated-text-input-border: #171717;
+    --activity-card-border: #1C1C1C;
     --background-modifier-hover: rgba(35, 35, 35, 0.25);
     --background-modifier-active: rgba(40, 40, 40, 0.3);
     --background-modifier-selected: rgba(40, 40, 40, 0.4);
@@ -38,13 +39,13 @@
     --text-muted: #969696;
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
-    --channels-default: #8b8b8b;
+    --channels-default: #737373;
     /* || Interactive */
     --channel-icon: var(--channels-default);
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
-    --interactive-muted: #595959;
+    --interactive-muted: #333333;
 }
 
 body, #app-mount, .bg-1QIAus {
@@ -232,7 +233,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .textarea-_59yqs,
 #app-mount .addFriendInputWrapper-kkoSV9 .input-2g-os5,
 #app-mount .titleContainer-2YK93J .input-2g-os5,
-#app-mount .searchBar-jGtisZ {
+#app-mount .searchBar-jGtisZ,
+#app-mount .bodyContainer-3GUwqv .channelTextArea-1VQBuV {
     border: none;
     background-color: transparent;
 }
@@ -253,7 +255,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     z-index: 101;
     position: relative;
     text-align: center;
-    content: "This theme was made for dark mode and will not properly work on light mode. Please head over to Settings -> Appearance, then under Theme enable Dark.";
+    content: "AMOLED-cord is strictly meant to be used in dark mode, so it will not work properly in light mode. Please head over to Settings -> Appearance, then under Theme, enable Dark.";
     font-size: 14px;
     font-weight: 500;
     line-height: 36px;
@@ -262,54 +264,45 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-radius: 8px 0 0;
     flex-grow: 0;
     flex-shrink: 0;
+    box-shadow: var(--elevation-low);
     color: #fff;
     background-color: var(--info-danger-foreground);
 }
-.theme-light .base-2jDfDU .notice-2HEN-u {
+.theme-light .base-2jDfDU .notice-2HEN-u,
+.theme-light .base-2jDfDU .sidebar-1tnWFu {
     border-radius: 0;
 }
-.theme-light .base-2jDfDU .container-YkUktl .flex-2S1XBF button:last-child {
+.theme-light .container-YkUktl .flex-2S1XBF button:nth-child(4),
+.theme-light [aria-controls=appearance-tab][aria-selected=false],
+.theme-light #appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(1),
+.theme-light :is(#user-settings-cog-Appearance, #user-settings-cog-Appearance--dark):not(.focused-3qFvc8) {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
-    color: white;
-    background-color: var(--info-danger-foreground) !important;
-}
-.theme-light .layer-86YKbF [aria-controls=appearance-tab][aria-selected=false],
-.theme-light .layer-86YKbF #appearance-tab .children-1xdcWE .marginTop8-24uXGp:nth-child(2n) .item-2idW98:first-child {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
-    background-color: var(--info-danger-foreground) !important;
-}
-.theme-light .layer-2aCOJ3 [class="item-1OdjEX labelContainer-2vJzYL colorDefault-CDqZdO"]#user-settings-cog-Appearance,
-.theme-light .layer-2aCOJ3 [class="item-1OdjEX labelContainer-2vJzYL colorDefault-CDqZdO"]#user-settings-cog-Appearance--dark {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
+    color: #fff;
     background-color: var(--info-danger-foreground) !important;
 }
 
 @-webkit-keyframes flash {
     0% {
-        box-shadow: 0 2px 10px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.2), 0 0 0 2px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1);
+        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
     }
     70% {
-        box-shadow: 0 0 20px 15px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1), 0 0 0 4px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1);
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
     }
     100% {
-        box-shadow: 0 0 20px 15px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0), 0 0 0 4px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1);
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
     }
 }
 
 @keyframes flash {
     0% {
-        box-shadow: 0 2px 10px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.2), 0 0 0 2px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1);
+        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
     }
     70% {
-        box-shadow: 0 0 20px 15px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1), 0 0 0 4px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1);
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
     }
     100% {
-        box-shadow: 0 0 20px 15px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0), 0 0 0 4px hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.1);
+        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
     }
 }
 .callContainer-BGIngG,
@@ -448,6 +441,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .inspector-DFKXwB {
     background-color: var(--background-secondary-alt);
+}
+
+.popoutContainer-2wbmiM {
+    background-color: var(--background-secondary);
+}
+.popoutContainer-2wbmiM .guildSection-2Zyzy8 {
+    background-color: var(--background-floating);
 }
 
 .messagesPopoutWrap-3zryHW .channelHeader-DFRX8q, .recentMentionsPopout-2bI1ZN .channelHeader-DFRX8q {
@@ -650,19 +650,27 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-2cd8Mz {
     background-color: var(--background-primary);
 }
+#app-mount .container-2cd8Mz .peopleListItem-u6dGxF:hover {
+    background-color: var(--background-tertiary);
+}
+#app-mount .container-2cd8Mz .actionButton-3-B2x- {
+    background-color: var(--background-secondary);
+}
 #app-mount .container-2cd8Mz .itemCard-3Etziu {
-    border-color: var(--card-border);
-    background-color: var(--card-background);
+    border: none;
+    background-color: var(--background-tertiary);
 }
 #app-mount .container-2cd8Mz .itemCard-3Etziu:hover {
-    background-color: var(--background-modifier-hover);
+    background-color: var(--background-secondary);
 }
 #app-mount .container-2cd8Mz .inset-SbsSFp {
-    border: 1px solid var(--card-border);
-    background-color: var(--card-background);
+    background-color: var(--background-primary);
 }
 #app-mount .container-2cd8Mz .separator-2OaeRP {
-    background-color: var(--card-border);
+    background-color: var(--activity-card-border);
+}
+#app-mount .container-2cd8Mz .multipleIconWrapper-2YHnS6 {
+    background-color: var(--background-primary);
 }
 
 #app-mount .background-fkKrXt {
@@ -672,8 +680,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .container-2Hi7Km,
 #app-mount .background-fkKrXt .container-xwOzwi,
 #app-mount .background-fkKrXt .wrapper-15CKyy {
-    border: 1px solid var(--card-border);
-    background-color: var(--background-primary);
+    background-color: var(--background-tertiary);
 }
 #app-mount .background-fkKrXt .icon-2IDTxf {
     border-color: var(--background-tertiary);
@@ -686,7 +693,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 @media (max-width: 1300px) {
     #app-mount .background-fkKrXt .container-xwOzwi {
-        border: none;
         background-color: var(--background-primary);
     }
     #app-mount .background-fkKrXt .container-3HMTms {
@@ -703,8 +709,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .container-3wLKDe .mainCard-3KBsBI,
 #app-mount .container-3wLKDe .sidebarCard-1Gn1ch,
 #app-mount .container-3wLKDe .container-2IhveL {
-    border: 1px solid var(--card-border);
-    background-color: var(--background-primary);
+    background-color: var(--background-tertiary);
 }
 #app-mount .container-3wLKDe .pill-3pRQlO {
     background-color: var(--background-secondary);

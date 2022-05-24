@@ -4,5 +4,6 @@
     "name": "AMOLED-Cord",
     "description": "A simple, optimized, no bullshit AMOLED theme.",
     "license": "MIT",
-    "theme": "./src/source.scss"
+    "theme": "./src/source.scss",
+    "splashTheme": "./src/components/_splash.scss"
 }

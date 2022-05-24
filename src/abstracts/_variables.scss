@@ -18,6 +18,7 @@
     --deprecated-card-editable-bg: var(--background-primary);
     --deprecated-text-input-bg: var(--background-primary);
     --deprecated-text-input-border: #171717;
+    --activity-card-border: #1C1C1C;
     
     --background-modifier-hover: rgba(35, 35, 35, 0.25);
     --background-modifier-active: rgba(40, 40, 40, 0.3);
@@ -42,12 +43,12 @@
     --text-muted: #969696;
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
-    --channels-default: #8b8b8b;
+    --channels-default: #737373;
 
     /* || Interactive */
     --channel-icon: var(--channels-default);
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
-    --interactive-muted: #595959;
+    --interactive-muted: #333333;
 }
