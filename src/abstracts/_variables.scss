@@ -9,20 +9,19 @@
     --background-floating: #0A0A0A;
     --background-accent: #1C1C1C;
     --modal-background: #0D0D0D;
-    // --popout-background: #0D0D0D;
-    --input-background: black;
+    --input-background: var(--background-primary);
     --input-border: #171717;
-    --card-background: black;
+    --card-background: var(--background-primary);
     --card-border: #171717;
-    --channeltextarea-background: var(--input-background);
-    --deprecated-card-bg: black;
-    --deprecated-card-editable-bg: black;
-    --deprecated-text-input-bg: black;
+    --channeltextarea-background: var(--background-primary);
+    --deprecated-card-bg: var(--background-primary);
+    --deprecated-card-editable-bg: var(--background-primary);
+    --deprecated-text-input-bg: var(--background-primary);
     --deprecated-text-input-border: #171717;
     
-    --background-modifier-hover: rgba(50, 50, 50, 0.2);
-    --background-modifier-active: rgba(50, 50, 50, 0.35);
-    --background-modifier-selected: rgba(50, 50, 50, 0.45);
+    --background-modifier-hover: rgba(35, 35, 35, 0.25);
+    --background-modifier-active: rgba(40, 40, 40, 0.3);
+    --background-modifier-selected: rgba(40, 40, 40, 0.4);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
 
     --button-secondary-background: #262626;
