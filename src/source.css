@@ -18,15 +18,15 @@
     --channeltextarea-background: #070708;
     --card-background: #080808;
     --card-border: #1C1C1C;
-    --button-secondary-background: #262626;
-    --button-secondary-background-hover: #2E2E2E;
-    --button-secondary-background-active: #303030;
-    --button-secondary-background-disabled: #1F1F1F;
-    --button-outline-primary-border: #262626;
-    --button-outline-primary-border-hover: #2E2E2E;
-    --button-outline-primary-background-hover: #2E2E2E;
-    --button-outline-primary-background-active: #303030;
-    --button-outline-primary-border-active: #303030;
+    --button-secondary-background: #22262A;
+    --button-secondary-background-hover: #2E3338;
+    --button-secondary-background-active: #373D43;
+    --button-secondary-background-disabled: #171A1C;
+    --button-outline-primary-border: #22262A;
+    --button-outline-primary-border-hover: #2E3338;
+    --button-outline-primary-background-hover: #2E3338;
+    --button-outline-primary-background-active: #373D43;
+    --button-outline-primary-border-active: #373D43;
     --scrollertrack-background: #090A0B;
     --scrollerthumb-background: #131416;
     /* || Text Colors */
@@ -63,6 +63,25 @@ body, #app-mount, .bg-1QIAus {
 
 .itemFilled-1cPbtg {
     background-color: var(--background-tertiary);
+}
+
+#app-mount .react-datepicker,
+#app-mount .react-datepicker__header {
+    background-color: var(--background-floating);
+}
+#app-mount .react-datepicker__navigation.react-datepicker__navigation--next,
+#app-mount .react-datepicker__navigation.react-datepicker__navigation--previous {
+    background-color: var(--background-secondary);
+}
+#app-mount .react-datepicker__day--disabled,
+#app-mount .react-datepicker__day--outside-month,
+#app-mount .react-datepicker__day.react-datepicker__day--disabled,
+#app-mount .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: var(--background-tertiary);
+}
+#app-mount .react-datepicker__day,
+#app-mount .react-datepicker__day:last-of-type {
+    border-color: var(--background-secondary-alt);
 }
 
 /*!
@@ -215,7 +234,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .addFriendInputWrapper-kkoSV9,
 #app-mount .channelTextArea-1VQBuV,
 #app-mount .lookFilled-1GseHa.select-1Ia3hD,
-#app-mount .container-30qY7E {
+#app-mount .container-30qY7E,
+#app-mount .copyInputDefault-3jiMHw {
     border: 1px solid var(--input-border);
     background-color: var(--input-background);
 }
@@ -302,6 +322,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .container-x8Y1ix {
     background-color: var(--modal-background);
+}
+
+#app-mount .message-G6O-Wv {
+    box-shadow: none;
+    background-color: var(--background-primary);
 }
 
 .root-g14mjS .progressBar-18rmp1:not(.selectedProgressBar-11z5d9) {
@@ -519,10 +544,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 .scroller-3X7KbA [class=circleIconButton-1VxDrg], .scroller-3X7KbA .childWrapper-1j_1ub,
 .scroller-3X7KbA .folder-241Joy.hover-3m7-WT {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary-alt);
 }
 .scroller-3X7KbA .folder-241Joy, .scroller-3X7KbA .expandedFolderBackground-1kSAf6 {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
 }
 
 .sidebar-1tnWFu {
@@ -692,9 +717,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary-alt);
 }
 #app-mount .cardPrimary-3qRT__,
-#app-mount .cardPrimaryEditable-2mz_3i {
+#app-mount .cardPrimaryEditable-2mz_3i,
+#app-mount .codeRedemptionRedirect-2hYMSQ {
     border-color: var(--card-border);
-    background-color: var(--card-background);
+    background: var(--card-background);
 }
 #app-mount .cardPrimaryOutline-1ofwVz {
     border-color: var(--card-border);
@@ -709,10 +735,14 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: var(--card-border);
     background-color: unset;
 }
+#app-mount .descriptionBox-SKGNgB,
+#app-mount .featureCard-3XHbjy {
+    background-color: var(--background-tertiary);
+}
 #app-mount .group-LWHoGI {
     border: 1px solid var(--background-secondary);
 }
-#app-mount .group-LWHoGI .item-4m-12I {
+#app-mount .group-LWHoGI .item-4m-12I:not(.selected-3jieYB) {
     background-color: var(--background-tertiary);
 }
 #app-mount .group-LWHoGI .passthrough--fbdFR.selected-3jieYB {
@@ -753,6 +783,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border: 1px solid var(--card-border);
     background-color: var(--background-primary);
 }
+#app-mount .preview-QJ3OG3 {
+    background-color: var(--background-primary);
+}
 #app-mount .notches-2w7UZJ.gray-3wP137 {
     background-image: none;
     background-color: var(--background-primary);
@@ -772,6 +805,12 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .game-2f2vPC {
     box-shadow: none;
     border-bottom: 1px solid var(--background-modifier-accent);
+}
+#app-mount .avatarUploaderInnerSquareDisabled-3M9eJS {
+    background-color: var(--background-accent);
+}
+#app-mount .container-3EtAkD {
+    background-color: var(--background-tertiary);
 }
 #app-mount .tierHeaderUnlocked-1OpOLf {
     background-color: var(--background-tertiary);
