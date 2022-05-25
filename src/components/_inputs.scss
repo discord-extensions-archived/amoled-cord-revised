@@ -41,3 +41,79 @@
         border-color: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,.3);
     }
 }
+
+$path-down: 'M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z';
+$path-up: 'M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z';
+$path-selected: 'M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z';
+
+$paths: (
+    '.css-gvi9bl-control' : '#{$path-down}',
+    '.css-17e1tep-control' : '#{$path-down}',
+    '.css-6fzn47-control' : '#{$path-up}'
+);
+
+// scuffed fix for containers
+#app-mount {
+    .css-1kj8ui-container > div { // all containers
+        font-weight: 500;
+        border-color: var(--input-border);
+        background-color: var(--input-background);
+    }
+
+    .css-ku6vh5-indicatorContainer { // default container
+        height: 40px;
+        padding-left: 30px;
+
+        svg {
+            position: absolute;
+            top: 10px;
+            right: 9px;
+        }
+
+        path {
+            display: none;
+        }
+    }
+
+    @each $class, $path in $paths { // specific control classes
+        #{$class} .css-ku6vh5-indicatorContainer svg {
+            background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="#{$path}" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+        }
+    }
+
+    .css-1llpzi1-indicatorContainer svg { // default clear button
+        position: absolute;
+        top: 13px;
+        right: -5px;
+    }
+
+    .css-3vaxre-menu { // option menu
+        background-color: var(--background-secondary);
+        border-color: var(--background-secondary-alt);
+        box-shadow: none;
+        animation: popup 0.22s ease-out;
+    }
+
+    .css-1yz4bi9-option { // option default
+        color: var(--interactive-normal);
+    }
+    
+    .css-rzbxvl-option { // option hovered
+        color: var(--interactive-hover);
+        background-color: var(--background-modifier-hover);
+    }
+    
+    .css-1ba14n5-option { // option selected
+        color: var(--text-normal);
+        background-color: var(--background-tertiary);
+    }
+}
+
+@keyframes popup {
+	0% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: none;
+	}
+}

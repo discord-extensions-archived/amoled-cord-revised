@@ -41,6 +41,9 @@
         border: 1px solid var(--background-secondary);
         .item-4m-12I:not(.selected-3jieYB) {
             background-color: var(--background-tertiary);
+            &:hover {
+                background-color: var(--background-modifier-hover);
+            }
         }
         .passthrough--fbdFR.selected-3jieYB {
             background-color: var(--background-secondary-alt);
@@ -172,5 +175,12 @@
     }
     .welcomeChannel-_Q4qAA {
         background-color: var(--background-secondary-alt);
+    }
+    .inputWrapper-3a4ywb {
+        border: unset;
+        background-color: unset;
+    }
+    .tag-ijGVSm {
+        background-color: var(--background-secondary);
     }
 }

@@ -267,6 +267,73 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
 }
 
+#app-mount .css-1kj8ui-container > div {
+    font-weight: 500;
+    border-color: var(--input-border);
+    background-color: var(--input-background);
+}
+#app-mount .css-ku6vh5-indicatorContainer {
+    height: 40px;
+    padding-left: 30px;
+}
+#app-mount .css-ku6vh5-indicatorContainer svg {
+    position: absolute;
+    top: 10px;
+    right: 9px;
+}
+#app-mount .css-ku6vh5-indicatorContainer path {
+    display: none;
+}
+#app-mount .css-gvi9bl-control .css-ku6vh5-indicatorContainer svg {
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+}
+#app-mount .css-17e1tep-control .css-ku6vh5-indicatorContainer svg {
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+}
+#app-mount .css-6fzn47-control .css-ku6vh5-indicatorContainer svg {
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+}
+#app-mount .css-1llpzi1-indicatorContainer svg {
+    position: absolute;
+    top: 13px;
+    right: -5px;
+}
+#app-mount .css-3vaxre-menu {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary-alt);
+    box-shadow: none;
+    -webkit-animation: popup 0.22s ease-out;
+            animation: popup 0.22s ease-out;
+}
+#app-mount .css-1yz4bi9-option {
+    color: var(--interactive-normal);
+}
+#app-mount .css-rzbxvl-option {
+    color: var(--interactive-hover);
+    background-color: var(--background-modifier-hover);
+}
+#app-mount .css-1ba14n5-option {
+    color: var(--text-normal);
+    background-color: var(--background-tertiary);
+}
+
+@-webkit-keyframes popup {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes popup {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: none;
+    }
+}
 .container-2o3qEW, .members-3WRCEx, .members-3WRCEx > div {
     background-color: var(--background-primary);
 }
@@ -320,7 +387,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-tertiary);
 }
 
-.container-x8Y1ix {
+.container-x8Y1ix, .guildRow-3fJnG6 {
     background-color: var(--modal-background);
 }
 
@@ -352,12 +419,36 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary-alt);
 }
 
+#app-mount .contentWrapper-3oy4Xo {
+    background-color: var(--modal-background);
+}
+
 .quickswitcher-pKcM9U, .scroller-2qwVWY {
     background-color: var(--modal-background);
 }
 
 .quickswitcher-pKcM9U {
     box-shadow: none;
+}
+
+#app-mount .container-KM8BU6, #app-mount .reactors-1VXca7 {
+    background-color: var(--modal-background);
+}
+#app-mount .scroller-2GkvCq {
+    background-color: var(--background-secondary);
+}
+#app-mount .scroller-2GkvCq .reactionSelected-1aMb2K {
+    background-color: var(--background-modifier-selected);
+}
+#app-mount .scroller-2GkvCq .reactionDefault-1Sjj1f:hover {
+    background-color: var(--background-modifier-hover);
+}
+#app-mount .scroller-2GkvCq .reactionDefault-1Sjj1f:active {
+    background-color: var(--background-modifier-active);
+}
+#app-mount .reactorDefault-3GSyaV {
+    box-shadow: none;
+    border-bottom: 1px solid var(--background-modifier-accent);
 }
 
 .preview-x-26h- .previewDark-3Xp3UB {
@@ -605,7 +696,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .wrapperAudio-1Bzv_Z,
 #app-mount .markup-eYLPri code,
 #app-mount .textContainer-36wgKK, #app-mount .footer-GXWBBp,
-#app-mount .attachment-1PZZB2 {
+#app-mount .attachment-1PZZB2,
+#app-mount .invite-3uuHYQ {
     border-color: var(--background-primary);
     background-color: var(--background-tertiary);
 }
@@ -683,7 +775,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-tertiary);
 }
 @media (max-width: 1300px) {
-    #app-mount .background-fkKrXt .container-xwOzwi {
+    #app-mount .background-fkKrXt .container-xwOzwi,
+#app-mount .background-fkKrXt .container-3rZ3XA {
         background-color: var(--background-primary);
     }
     #app-mount .background-fkKrXt .container-3HMTms {
@@ -692,6 +785,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .background-fkKrXt .headerBarInner-2pcZSM::after {
     background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-primary));
+}
+#app-mount .background-fkKrXt .applicationStreamingPreviewWrapper-7j27t8 {
+    background-color: var(--background-secondary);
 }
 
 #app-mount .container-3wLKDe {
@@ -704,6 +800,14 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .container-3wLKDe .pill-3pRQlO {
     background-color: var(--background-secondary);
+}
+
+.artwork-L5TAwQ {
+    display: none;
+}
+
+#app-mount .authBox-1HR6Ha {
+    background-color: var(--modal-background);
 }
 
 #app-mount .default-1Tkeeg {
@@ -744,6 +848,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .group-LWHoGI .item-4m-12I:not(.selected-3jieYB) {
     background-color: var(--background-tertiary);
+}
+#app-mount .group-LWHoGI .item-4m-12I:not(.selected-3jieYB):hover {
+    background-color: var(--background-modifier-hover);
 }
 #app-mount .group-LWHoGI .passthrough--fbdFR.selected-3jieYB {
     background-color: var(--background-secondary-alt);
@@ -853,6 +960,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .welcomeChannel-_Q4qAA {
     background-color: var(--background-secondary-alt);
 }
+#app-mount .inputWrapper-3a4ywb {
+    border: unset;
+    background-color: unset;
+}
+#app-mount .tag-ijGVSm {
+    background-color: var(--background-secondary);
+}
 
 .callContainer-BGIngG,
 .container-cH6QoY,
@@ -884,4 +998,24 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .divider-vv_iHh {
     border-color: var(--background-modifier-accent);
+}
+
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--background-secondary-alt);
+}
+
+.tileContainer-Os085F {
+    background-color: var(--background-primary);
+}
+.tileContainer-Os085F:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.scroller-35tvpe::-webkit-scrollbar-track {
+    border: unset;
+    background-color: unset;
+}
+
+.tile-2TcwiO {
+    background-color: var(--background-tertiary);
 }

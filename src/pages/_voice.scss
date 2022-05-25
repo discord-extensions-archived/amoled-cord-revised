@@ -25,3 +25,19 @@
 .divider-vv_iHh {
     border-color: var(--background-modifier-accent);
 }
+.colorable-3rVGna.primaryDark-2UJt1G {
+    background-color: var(--background-secondary-alt);
+}
+.tileContainer-Os085F {
+    background-color: var(--background-primary);
+    &:hover {
+        background-color: var(--background-modifier-hover);
+    }
+}
+.scroller-35tvpe::-webkit-scrollbar-track {
+    border: unset;
+    background-color: unset;
+}
+.tile-2TcwiO {
+    background-color: var(--background-tertiary);
+}

@@ -18,7 +18,8 @@
         background-color: var(--background-tertiary);
     }
     @media(max-width: 1300px) {
-        .container-xwOzwi {
+        .container-xwOzwi,
+        .container-3rZ3XA {
             background-color: var(--background-primary);
         }
         .container-3HMTms {
@@ -27,5 +28,8 @@
     }
     .headerBarInner-2pcZSM::after {
         background: linear-gradient(90deg,rgba(54,57,63,0) 0,var(--background-primary));
+    }
+    .applicationStreamingPreviewWrapper-7j27t8 {
+        background-color: var(--background-secondary);
     }
 }

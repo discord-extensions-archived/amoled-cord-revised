@@ -1,0 +1,23 @@
+#app-mount {
+    .container-KM8BU6, .reactors-1VXca7 {
+        background-color: var(--modal-background);
+    }
+    .scroller-2GkvCq {
+        background-color: var(--background-secondary);
+        .reactionSelected-1aMb2K {
+            background-color: var(--background-modifier-selected);
+        }
+        .reactionDefault-1Sjj1f {
+            &:hover {
+                background-color: var(--background-modifier-hover);
+            }
+            &:active {
+                background-color: var(--background-modifier-active);
+            }
+        }
+    }
+    .reactorDefault-3GSyaV {
+        box-shadow: none;
+        border-bottom: 1px solid var(--background-modifier-accent);
+    }
+}

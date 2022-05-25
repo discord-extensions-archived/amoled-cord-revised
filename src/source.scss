@@ -17,7 +17,9 @@
 @use './components/modals/delete-message';
 @use './components/modals/events';
 @use './components/modals/keybinds';
+@use './components/modals/server-join';
 @use './components/modals/quickswitcher';
+@use './components/modals/reactions';
 @use './components/modals/stickers';
 @use './components/modals/stream';
 
@@ -48,5 +50,6 @@
 @use './pages/friends';
 @use './pages/guild-home';
 @use './pages/guild-threads';
+@use './pages/login';
 @use './pages/settings';
 @use './pages/voice';
