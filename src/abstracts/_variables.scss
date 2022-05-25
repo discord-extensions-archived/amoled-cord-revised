@@ -3,19 +3,19 @@
 .theme-dark .theme-light {
     /* || Background Colors */
     --background-primary: black;
-    --background-secondary: #121212;
-    --background-secondary-alt: #1C1C1C;
-    --background-tertiary: #080808;
+    --background-secondary: #0E0F10;
+    --background-secondary-alt: #151619;
+    --background-tertiary: #070708;
     --background-accent: #212121;
-    --background-modifier-hover: rgba(35, 35, 35, 0.25);
-    --background-modifier-active: rgba(40, 40, 40, 0.3);
-    --background-modifier-selected: rgba(40, 40, 40, 0.4);
+    --background-modifier-hover: rgba(33, 35, 37, 0.3);
+    --background-modifier-active: rgba(33, 35, 37, 0.4);
+    --background-modifier-selected: rgba(33, 35, 37, 0.42);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
-    --background-floating: #0A0A0A;
-    --modal-background: #0D0D0D;
-    --input-background: #050505;
-    --input-border: #171717;
-    --channeltextarea-background: #050505;
+    --background-floating: #090A0B;
+    --modal-background: #090A0B;
+    --input-background: #070708;
+    --input-border: #131416;
+    --channeltextarea-background: #070708;
     --card-background: #080808;
     --card-border: #1C1C1C;
 
@@ -29,8 +29,8 @@
     --button-outline-primary-background-active: #303030;
     --button-outline-primary-border-active: #303030;
 
-    --scrollertrack-background: #0D0D0D;
-    --scrollerthumb-background: #1C1C1C;
+    --scrollertrack-background: #090A0B;
+    --scrollerthumb-background: #131416;
 
     /* || Text Colors */
     --text-normal: white;
@@ -44,5 +44,5 @@
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
-    --interactive-muted: #333333;
+    --interactive-muted: #2F3237;
 }

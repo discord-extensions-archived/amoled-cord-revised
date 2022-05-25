@@ -3,19 +3,19 @@
 .theme-dark .theme-light {
     /* || Background Colors */
     --background-primary: black;
-    --background-secondary: #121212;
-    --background-secondary-alt: #1C1C1C;
-    --background-tertiary: #080808;
+    --background-secondary: #0E0F10;
+    --background-secondary-alt: #151619;
+    --background-tertiary: #070708;
     --background-accent: #212121;
-    --background-modifier-hover: rgba(35, 35, 35, 0.25);
-    --background-modifier-active: rgba(40, 40, 40, 0.3);
-    --background-modifier-selected: rgba(40, 40, 40, 0.4);
+    --background-modifier-hover: rgba(33, 35, 37, 0.3);
+    --background-modifier-active: rgba(33, 35, 37, 0.4);
+    --background-modifier-selected: rgba(33, 35, 37, 0.42);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
-    --background-floating: #0A0A0A;
-    --modal-background: #0D0D0D;
-    --input-background: #050505;
-    --input-border: #171717;
-    --channeltextarea-background: #050505;
+    --background-floating: #090A0B;
+    --modal-background: #090A0B;
+    --input-background: #070708;
+    --input-border: #131416;
+    --channeltextarea-background: #070708;
     --card-background: #080808;
     --card-border: #1C1C1C;
     --button-secondary-background: #262626;
@@ -27,8 +27,8 @@
     --button-outline-primary-background-hover: #2E2E2E;
     --button-outline-primary-background-active: #303030;
     --button-outline-primary-border-active: #303030;
-    --scrollertrack-background: #0D0D0D;
-    --scrollerthumb-background: #1C1C1C;
+    --scrollertrack-background: #090A0B;
+    --scrollerthumb-background: #131416;
     /* || Text Colors */
     --text-normal: white;
     --text-muted: #969696;
@@ -40,7 +40,7 @@
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
-    --interactive-muted: #333333;
+    --interactive-muted: #2F3237;
 }
 
 body, #app-mount, .bg-1QIAus {
@@ -63,25 +63,6 @@ body, #app-mount, .bg-1QIAus {
 
 .itemFilled-1cPbtg {
     background-color: var(--background-tertiary);
-}
-
-#app-mount .react-datepicker,
-#app-mount .react-datepicker__header {
-    background-color: var(--background-floating);
-}
-#app-mount .react-datepicker__navigation.react-datepicker__navigation--next,
-#app-mount .react-datepicker__navigation.react-datepicker__navigation--previous {
-    background-color: var(--background-secondary);
-}
-#app-mount .react-datepicker__day--disabled,
-#app-mount .react-datepicker__day--outside-month,
-#app-mount .react-datepicker__day.react-datepicker__day--disabled,
-#app-mount .react-datepicker__day.react-datepicker__day--disabled:hover {
-    background-color: var(--background-tertiary);
-}
-#app-mount .react-datepicker__day,
-#app-mount .react-datepicker__day:last-of-type {
-    border-color: var(--background-secondary-alt);
 }
 
 /*!
@@ -293,45 +274,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     flex-shrink: 0;
     box-shadow: var(--elevation-low);
     color: #fff;
-    background-color: var(--info-danger-foreground);
+    background-color: var(--background-secondary);
 }
 .theme-light .base-2jDfDU .notice-2HEN-u,
 .theme-light .base-2jDfDU .sidebar-1tnWFu {
     border-radius: 0;
 }
-.theme-light .container-YkUktl .flex-2S1XBF button:nth-child(4),
-.theme-light [aria-controls=appearance-tab][aria-selected=false],
-.theme-light #appearance-tab .marginTop8-24uXGp:nth-child(2) .item-2idW98:nth-child(1),
-.theme-light :is(#user-settings-cog-Appearance, #user-settings-cog-Appearance--dark):not(.focused-3qFvc8) {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: #fff;
-    background-color: var(--info-danger-foreground) !important;
-}
 
-@-webkit-keyframes flash {
-    0% {
-        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
-    }
-    70% {
-        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
-    }
-    100% {
-        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
-    }
-}
-
-@keyframes flash {
-    0% {
-        box-shadow: 0 2px 10px rgba(240, 71, 71, 0.2), 0 0 0 2px rgba(240, 70, 70, 0.3);
-    }
-    70% {
-        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0.1), 0 0 0 6px rgba(240, 70, 70, 0.2);
-    }
-    100% {
-        box-shadow: 0 0 20px 15px rgba(240, 71, 71, 0), 0 0 0 6px rgba(240, 24, 70, 0.1);
-    }
-}
 #app-mount .root-g14mjS {
     box-shadow: none;
     background-color: var(--modal-background);
@@ -596,15 +545,15 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     content: "";
     position: absolute;
     pointer-events: none;
-    background: url('data:image/svg+xml;utf8,<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.7649 7.965C10.6849 7.83 10.4599 7.62 9.89985 7.72C9.58985 7.775 9.27485 7.8 8.95985 7.785C7.79485 7.735 6.73985 7.2 6.00485 6.375C5.35485 5.65 4.95485 4.705 4.94985 3.685C4.94985 3.115 5.05985 2.565 5.28485 2.045C5.50485 1.54 5.34985 1.275 5.23985 1.165C5.12485 1.05 4.85485 0.889997 4.32485 1.11C2.27985 1.97 1.01485 4.02 1.16485 6.215C1.31485 8.28 2.76485 10.045 4.68485 10.71C5.14485 10.87 5.62985 10.965 6.12985 10.985C6.20985 10.99 6.28985 10.995 6.36985 10.995C8.04485 10.995 9.61485 10.205 10.6049 8.86C10.9399 8.395 10.8499 8.1 10.7649 7.965Z" fill="%23595959"/></svg>') center/100% no-repeat;
+    background: url('data:image/svg+xml;utf8,<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.7649 7.965C10.6849 7.83 10.4599 7.62 9.89985 7.72C9.58985 7.775 9.27485 7.8 8.95985 7.785C7.79485 7.735 6.73985 7.2 6.00485 6.375C5.35485 5.65 4.95485 4.705 4.94985 3.685C4.94985 3.115 5.05985 2.565 5.28485 2.045C5.50485 1.54 5.34985 1.275 5.23985 1.165C5.12485 1.05 4.85485 0.889997 4.32485 1.11C2.27985 1.97 1.01485 4.02 1.16485 6.215C1.31485 8.28 2.76485 10.045 4.68485 10.71C5.14485 10.87 5.62985 10.965 6.12985 10.985C6.20985 10.99 6.28985 10.995 6.36985 10.995C8.04485 10.995 9.61485 10.205 10.6049 8.86C10.9399 8.395 10.8499 8.1 10.7649 7.965Z" fill="%23525760"/></svg>') center/100% no-repeat;
     width: 12px;
     height: 12px;
     left: 10px;
     top: 6px;
 }
 .typeWindows-2-g3UY .wordmark-2u86JB {
-    margin-left: 14px;
-    color: #595959;
+    margin-left: 13px;
+    color: #525760;
 }
 
 #app-mount .perksModal-CLcR1c, #app-mount .tierMarkerBackground-G8FoN4 {
@@ -646,7 +595,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-floating);
 }
 #app-mount .message-2CShn3:not(.mentioned-Tre-dv, .ephemeral-2nDdnn):hover {
-    background-color: rgba(255, 255, 255, 0.015);
+    background-color: rgba(33, 35, 37, 0.1);
 }
 
 #app-mount .pageWrapper-2PwDoS {
@@ -861,6 +810,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .card-WWLYDO, #app-mount .iconMask-1EYGrv {
     background-color: var(--background-tertiary);
+}
+#app-mount .welcomeChannel-_Q4qAA {
+    background-color: var(--background-secondary-alt);
 }
 
 .callContainer-BGIngG,
