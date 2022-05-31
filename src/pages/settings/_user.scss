@@ -1,0 +1,85 @@
+#app-mount .layer-86YKbF {
+    #connections-tab {
+        .accountList-Wii_T5 {
+            background-color: var(--background-tertiary);
+        }
+        .connectionHeader-Ixbb1s {
+            background-color: var(--background-secondary);
+        }
+        .connection-YOVI9j {
+            background-color: var(--background-tertiary);
+        }
+    }
+    #discord-nitro-tab {
+        .feature-2IUcBI {
+            background-color: var(--card-background);
+        }
+    }
+    #subscriptions-tab {
+        .detailsBlock-24pLFz,
+        .accountCredit-1gEVAQ {
+            background-color: var(--background-tertiary);
+        }
+    }
+    #billing-tab {
+        .verticalFit-21XL0v {
+            .paymentPane-ut5qKZ,
+            .paginator-1eqD2g,
+            .payment-2bOh4k {
+                background-color: var(--background-tertiary);
+            }
+            .bottomDivider-ZmTm-j {
+                border-color: var(--background-primary);
+            }
+            .hoverablePayment-lE1s4t, .itemFilled-1cPbtg {
+                &:hover {
+                    background-color: var(--background-modifier-hover);
+                }
+                &:active {
+                    background-color: var(--background-modifier-active);
+                }
+            }
+            .expandedInfo-1W31i3 {
+                border: 1px solid var(--card-border);
+                background-color: var(--background-primary);
+            }
+        }
+        .codeRedemptionRedirect-2hYMSQ {
+            border-color: var(--card-border);
+            background-color: var(--card-background);
+        }
+    }
+    #appearance-tab {
+        .preview-QJ3OG3 {
+            background-color: var(--background-primary);
+        }
+    }
+    [id="voice-&-video-tab"] {
+        .notches-2w7UZJ.gray-3wP137 {
+            background-image: none;
+            background-color: var(--background-primary);
+            -webkit-mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+            mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
+        }
+        .progress-1S-TDF {
+            background-color: var(--background-accent);
+        }
+        .backgroundOptionInner-SSz19O {
+            background-color: var(--background-primary);
+        }
+    }
+    #game-activity-tab {
+        .game-2f2vPC {
+            box-shadow: none;
+            border-bottom: 1px solid var(--background-modifier-accent);
+        }
+    }
+    #overlay-tab {
+        .disabled-35mc5w {
+            color: var(--background-accent);
+        }
+        .option-1QI4c9:not(.selected-18Wszc) {
+            background-color: var(--background-accent);
+        }
+    }
+}

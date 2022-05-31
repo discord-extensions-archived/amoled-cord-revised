@@ -1,12 +1,16 @@
-#app-mount {
-    .container-KM8BU6, .reactors-1VXca7 {
-        background-color: var(--modal-background);
+/* |START| Components/Modals - Reactions */
+#app-mount .root-g14mjS {
+    // || Reacted USers
+    .reactors-1VXca7 {
+        background-color: unset;
+        .reactorDefault-3GSyaV {
+            box-shadow: none;
+            border-bottom: 1px solid var(--background-modifier-accent);
+        }
     }
+    // || Reactions List
     .scroller-2GkvCq {
         background-color: var(--background-secondary);
-        .reactionSelected-1aMb2K {
-            background-color: var(--background-modifier-selected);
-        }
         .reactionDefault-1Sjj1f {
             &:hover {
                 background-color: var(--background-modifier-hover);
@@ -15,9 +19,9 @@
                 background-color: var(--background-modifier-active);
             }
         }
-    }
-    .reactorDefault-3GSyaV {
-        box-shadow: none;
-        border-bottom: 1px solid var(--background-modifier-accent);
+        .reactionSelected-1aMb2K {
+            background-color: var(--background-modifier-selected);
+        }
     }
 }
+/* |END| Components/Modals - Reactions */

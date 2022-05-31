@@ -1,10 +1,7 @@
 #app-mount {
     .layer-2aCOJ3 {
-        .header-1w9Q93 {
+        .header-1w9Q93, .header-1w9Q93 + div {
             background-color: var(--background-floating);
-            + div {
-                background-color: var(--background-floating);
-            }
         }
         .tab-TRrPC8.active-1grPyy {
             background-color: var(--background-modifier-active);

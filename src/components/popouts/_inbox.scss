@@ -1,4 +1,5 @@
-.messagesPopoutWrap-3zryHW, .recentMentionsPopout-2bI1ZN {
+/* |START| Components/Popouts - Inbox */
+.layer-2aCOJ3 {
     .channelHeader-DFRX8q {
         background-color: var(--background-floating);
     }
@@ -14,8 +15,9 @@
             background-color: var(--background-modifier-active);
         }
     }
+    .messageContainer-3VTXBC,
+    .messages-23can0 {
+       background-color: var(--background-primary);
+    }
 }
-.messagesPopoutWrap-3zryHW .messageContainer-3VTXBC,
-.recentMentionsPopout-2bI1ZN .messages-23can0 {
-    background-color: var(--background-primary);
-}
+/* |END| Components/Popouts - Inbox */

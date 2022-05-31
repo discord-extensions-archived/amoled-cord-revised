@@ -1,3 +1,10 @@
-.container-2o3qEW, .members-3WRCEx, .members-3WRCEx > div {
-    background-color: var(--background-primary);
+.base-2jDfDU {
+    .membersWrap-3NUR2t {
+        background-color: var(--background-primary);
+    }
+    .container-2o3qEW,
+    .members-3WRCEx,
+    .members-3WRCEx > div {
+        background-color: unset;
+    }
 }

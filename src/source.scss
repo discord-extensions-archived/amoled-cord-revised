@@ -2,6 +2,7 @@
 @use './base/app';
 
 // components
+@use './components/assets';
 @use './components/buttons';
 @use './components/date-picker';
 @use './components/hljs';
@@ -12,7 +13,8 @@
 
 // modal components
 @use './components/modal';
-@use './components/modals/add-account';
+@use './components/modals/account-switcher';
+@use './components/modals/boost-server';
 @use './components/modals/create-server';
 @use './components/modals/delete-message';
 @use './components/modals/events';
@@ -31,6 +33,8 @@
 @use './components/popouts/drawer-picker';
 @use './components/popouts/emojis';
 @use './components/popouts/inbox';
+@use './components/popouts/member-roles';
+@use './components/popouts/menu';
 @use './components/popouts/noise-suppression';
 @use './components/popouts/pinned';
 @use './components/popouts/search';
@@ -47,9 +51,8 @@
 @use './pages/boost';
 @use './pages/chat';
 @use './pages/discover';
-@use './pages/friends';
 @use './pages/guild-home';
 @use './pages/guild-threads';
-@use './pages/login';
-@use './pages/settings';
+@use './pages/settings/settings';
+@use './pages/user-home';
 @use './pages/voice';

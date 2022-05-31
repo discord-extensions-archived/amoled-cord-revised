@@ -1,19 +1,26 @@
-#app-mount {
-    .perksModal-CLcR1c, .tierMarkerBackground-G8FoN4 {
-        background-color: var(--background-primary);
-    }
-}
-.perksModal-CLcR1c {
-    .ctaBar-Nhk8yY,
-    .barBackground-unEPDT,
-    .tierHeaderLocked-3ItHYn ,
-    .perk-19D_HN {
+#app-mount .perksModal-CLcR1c {
+    background-color: var(--background-primary);
+    .ctaBar-Nhk8yY {
         background-color: var(--background-tertiary);
     }
-    .tierMarkerInProgress-2Tdxjz {
-        background-color: var(--background-tertiary) !important;
+    .progressBar-20NUv9 {
+        .barBackground-unEPDT, .tierMarkerBackground-G8FoN4 {
+            background-color: var(--background-tertiary);
+        }
+        .tierMarkerInProgress-2Tdxjz {
+            background-color: var(--background-tertiary) !important;
+        }
     }
-    .tierBody-3ju-rc {
+    .tier-lFqDUs {
+        .tierHeaderLocked-3ItHYn {
+            color: var(--interactive-normal);
+            background-color: var(--background-tertiary);
+        }
+        .tierBody-3ju-rc {
+            background-color: var(--background-secondary);
+        }
+    }
+    .perk-19D_HN {
         background-color: var(--background-secondary);
     }
 }

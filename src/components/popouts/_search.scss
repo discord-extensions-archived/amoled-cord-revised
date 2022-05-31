@@ -1,5 +1,6 @@
+/* |START| Components/Popouts - Search */
 #app-mount {
-    // page
+    // || Search Side Popout
     .searchResultsWrap-5RVOkx, .channelName-3w2Y3c, .searchHeader-1r_ZSh {
         background-color: var(--background-primary);
     }
@@ -10,7 +11,7 @@
         background-color: var(--background-primary);
     }
 
-    // container
+    // || Search Popount Container
     .searchAnswer-23w-CH,
     .searchFilter-2UfsDk {
         background-color: var(--background-accent);
@@ -29,3 +30,4 @@
         }
     }
 }
+/* |END| Components/Popouts - Search */

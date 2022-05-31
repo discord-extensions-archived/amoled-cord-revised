@@ -1,20 +1,24 @@
-.contentWrapper-3vHNP2, .emojiPicker-6YCk8a {
-    background-color: var(--background-floating);
-    .emojiPickerListWrapper-1T3YI3, .wrapper-1NNaWG {
+/* |START| Components/Popouts - Drawer Picker */
+.layer-2aCOJ3 {
+    // Picker
+    .emojiPicker-6YCk8a {
         background-color: var(--background-floating);
+        .wrapper-1NNaWG {
+            background-color: var(--background-floating);
+        }
+        .imageLoading-2uloYN {
+            border-radius: 30%;
+            background-color: var(--background-accent);
+            background-image: none;
+        }
     }
-    .imageLoading-2uloYN {
-        border-radius: 30%;
-        background-color: var(--background-accent);
-        background-image: none;
+    // || List
+    .wrapper-22rqw6 {
+        background-color: var(--background-secondary);
+        .categoryItemDefaultCategorySelected-2YeRUu,
+        .categoryItemDefaultCategorySelected-2YeRUu:hover {
+            background-color: var(--background-modifier-selected);
+        }
     }
 }
-.wrapper-22rqw6 {
-    background-color: var(--background-secondary);
-    .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover {
-        background-color: var(--background-modifier-selected);
-    }
-}
-.inspector-DFKXwB {
-    background-color: var(--background-secondary-alt);
-}
+/* |END| Components/Popouts - Drawer Picker */

@@ -1,3 +1,4 @@
+/* |START| Abstracts - Variables */
 :root,
 .theme-dark,
 .theme-dark .theme-light {
@@ -12,11 +13,11 @@
     --background-modifier-selected: rgba(33, 35, 37, 0.42);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
     --background-floating: #090A0B;
-    --modal-background: #090A0B;
+    --modal-background: #0C0C0E;
     --input-background: #070708;
     --input-border: #131416;
     --channeltextarea-background: #070708;
-    --card-background: #080808;
+    --card-background: #090A0B;
     --card-border: #1C1C1C;
 
     --button-secondary-background: #22262A;
@@ -46,3 +47,4 @@
     --interactive-active: #fff;
     --interactive-muted: #2F3237;
 }
+/* |END| Abstracts - Variables */
