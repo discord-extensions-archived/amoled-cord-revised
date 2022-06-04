@@ -2,6 +2,9 @@
 @use './user';
 
 #app-mount .layer-86YKbF {
+    .closeButton-PCZcma, .keybind-13vtq8 {
+        color: var(--interactive-normal);
+    }
     .sidebarRegionScroller-FXiQOh {
         background-color: var(--background-primary);
     }
