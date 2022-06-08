@@ -3,6 +3,9 @@
     // || Item List
     .container-x8Y1ix, .guildRow-3fJnG6 {
         background-color: var(--modal-background);
+        &:hover {
+            background-color: var(--background-modifier-hover);
+        }
     }
 }
 /* |END| Components/Modals - Create Server */

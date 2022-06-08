@@ -38,7 +38,7 @@
     --channels-default: #737373;
     /* || Interactive */
     --channel-icon: var(--channels-default);
-    --interactive-normal: #737373;
+    --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: #2F3237;
@@ -461,6 +461,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 /* |START| Components/Modals - Create Server */
 #app-mount .root-g14mjS .container-x8Y1ix, #app-mount .root-g14mjS .guildRow-3fJnG6 {
     background-color: var(--modal-background);
+}
+#app-mount .root-g14mjS .container-x8Y1ix:hover, #app-mount .root-g14mjS .guildRow-3fJnG6:hover {
+    background-color: var(--background-modifier-hover);
 }
 
 /* |END| Components/Modals - Create Server */
