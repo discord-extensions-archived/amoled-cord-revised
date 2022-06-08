@@ -1,16 +1,28 @@
-/* |START| Components/Popouts - Autocomplete */
-#app-mount .autocomplete-3NRXG8 {
-    background-color: var(--background-floating);
-    .wrapper-22rqw6 {
-        .selected-3B2w1z, .selected-3B2w1z:hover {
+#app-mount {
+    .autocomplete-3NRXG8 {
+        background-color: var(--background-floating);
+        .wrapper-22rqw6 {
+            .selected-3B2w1z, .selected-3B2w1z:hover {
+                background-color: var(--background-modifier-selected);
+            }
+        }
+        .categoryHeader-OpJ1Ly {
+            background-color: var(--background-floating);
+        }
+        .clickable-2V8YKY[aria-disabled=false] .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true] .base-2v-uc0 {
             background-color: var(--background-modifier-selected);
         }
     }
-    .categoryHeader-OpJ1Ly {
-        background-color: var(--background-floating);
-    }
-    .clickable-2V8YKY[aria-disabled=false] .base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true] .base-2v-uc0 {
-        background-color: var(--background-modifier-selected);
+    .container-1S70rv {
+        .autocompleteShadow-2nfsSy {
+            box-shadow: none;
+        }
+        .header-3i_Csh {
+            background-color: var(--background-tertiary);
+        }
+        .sectionTag-28mLyE {
+            color: var(--interactive-normal);
+            background-color: var(--background-secondary);
+        }
     }
 }
-/* |END| Components/Popouts - Autocomplete */

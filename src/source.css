@@ -45,12 +45,10 @@
 }
 
 /* |END| Abstracts - Variables */
-/* |START| Base - App */
 body, .appMount-2yBXZl, .app-2CXKsg, .bg-1QIAus {
     background-color: var(--background-primary) !important;
 }
 
-/* |END| Base - App */
 /* || Mountain Wumpus */
 [style$='("/assets/b36c705f790dad253981f1893085015a.svg");'] {
     background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/mountain-wumpus.svg") !important;
@@ -432,7 +430,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-tertiary);
 }
 
-/* |START| Components/Modals - Account Switcher */
 #app-mount .root-g14mjS .list-3-WAYB {
     background-color: var(--background-primary);
 }
@@ -445,8 +442,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-tertiary);
 }
 
-/* |END| Components/Modals - Account Switcher */
-/* |START| Components/Modals - Boost Server */
 #app-mount .root-g14mjS .iconWrapper-2_MXbk {
     background-color: var(--background-accent);
 }
@@ -457,8 +452,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-bottom-color: var(--background-modifier-accent);
 }
 
-/* |END| Components/Modals - Boost Server */
-/* |START| Components/Modals - Create Server */
 #app-mount .root-g14mjS .container-x8Y1ix, #app-mount .root-g14mjS .guildRow-3fJnG6 {
     background-color: var(--modal-background);
 }
@@ -466,14 +459,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-modifier-hover);
 }
 
-/* |END| Components/Modals - Create Server */
-/* |START| Components/Modals - Delete Message */
 #app-mount .root-g14mjS .message-G6O-Wv {
     box-shadow: none;
     background-color: var(--background-primary);
 }
 
-/* |END| Components/Modals - Delete Message */
 /* |START| Components/Modals - Events */
 #app-mount .root-g14mjS .card-8UsK4b {
     border-color: var(--background-primary);
@@ -489,8 +479,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--modal-background);
 }
 
-/* |END| Components/Modals - Events */
-/* |START| Components/Modals - Keybinds */
 #app-mount .keyboardShortcutsModal-2CRmCm {
     background-color: var(--modal-background);
 }
@@ -500,14 +488,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary-alt);
 }
 
-/* |END| Components/Modals - Keybinds */
-/* |START| Components/Modals - Server Join */
 #app-mount .contentWrapper-3oy4Xo {
     background-color: var(--modal-background);
 }
 
-/* |END| Components/Modals - Server Join */
-/* |START| Components/Modals - Quickswitcher */
 #app-mount .root-g14mjS .quickswitcher-pKcM9U {
     box-shadow: none;
     background-color: var(--modal-background);
@@ -516,8 +500,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--modal-background);
 }
 
-/* |END| Components/Modals - Quickswitcher */
-/* |START| Components/Modals - Reactions */
 #app-mount .root-g14mjS .reactors-1VXca7 {
     background-color: unset;
 }
@@ -538,8 +520,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-modifier-selected);
 }
 
-/* |END| Components/Modals - Reactions */
-/* |START| Components/Modals - Stickers */
 #app-mount .root-g14mjS .previewDark-3Xp3UB {
     background-color: var(--background-primary);
 }
@@ -547,8 +527,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     display: none;
 }
 
-/* |END| Components/Modals - Stickers */
-/* |START| Components/Modals - Screen Share */
 #app-mount .root-g14mjS .qualitySettingsContainer-2LjkfM {
     border-color: var(--background-primary);
 }
@@ -557,7 +535,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-primary);
 }
 
-/* |END| Components/Modals - Screen Share */
 #app-mount .layer-2aCOJ3 .header-1w9Q93, #app-mount .layer-2aCOJ3 .header-1w9Q93 + div {
     background-color: var(--background-floating);
 }
@@ -570,14 +547,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-floating);
 }
 
-/* |START| Components/Popouts - Add Game */
 #app-mount .addGamePopout-2SKNIV {
     box-shadow: none;
     background-color: var(--background-floating);
 }
 
-/* |END| Components/Popouts - Add Game */
-/* |START| Components/Popouts - Autocomplete */
 #app-mount .autocomplete-3NRXG8 {
     background-color: var(--background-floating);
 }
@@ -590,9 +564,17 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .autocomplete-3NRXG8 .clickable-2V8YKY[aria-disabled=false] .base-2v-uc0:hover, #app-mount .autocomplete-3NRXG8 .clickable-2V8YKY[aria-selected=true] .base-2v-uc0 {
     background-color: var(--background-modifier-selected);
 }
+#app-mount .container-1S70rv .autocompleteShadow-2nfsSy {
+    box-shadow: none;
+}
+#app-mount .container-1S70rv .header-3i_Csh {
+    background-color: var(--background-tertiary);
+}
+#app-mount .container-1S70rv .sectionTag-28mLyE {
+    color: var(--interactive-normal);
+    background-color: var(--background-secondary);
+}
 
-/* |END| Components/Popouts - Autocomplete */
-/* |START| Components/Popouts - Colorpicker */
 #app-mount .colorPickerCustom-1swUKF {
     border-color: var(--background-primary);
     background: var(--background-floating);
@@ -601,8 +583,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--input-background);
 }
 
-/* |END| Components/Popouts - Colorpicker */
-/* |START| Components/Popouts - Drawer Picker */
 .layer-2aCOJ3 .emojiPicker-6YCk8a {
     background-color: var(--background-floating);
 }
@@ -622,8 +602,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-modifier-selected);
 }
 
-/* |END| Components/Popouts - Drawer Picker */
-/* |START| Components/Popouts - Emojis */
 .popoutContainer-2wbmiM {
     background-color: var(--background-secondary);
 }
@@ -631,8 +609,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-floating);
 }
 
-/* |END| Components/Popouts - Emojis */
-/* |START| Components/Popouts - Inbox */
 .layer-2aCOJ3 .channelHeader-DFRX8q {
     background-color: var(--background-floating);
 }
@@ -653,15 +629,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-primary);
 }
 
-/* |END| Components/Popouts - Inbox */
-/* |START| Components/Popouts - Member Roles */
 #app-mount .overflowRolesPopout-1Puiuq, #app-mount .overflowRolesPopoutArrow-2R7g3K {
     box-shadow: none;
     background-color: var(--background-floating);
 }
 
-/* |END| Components/Popouts - Member Roles */
-/* |START| Components/Popouts - Context Menus */
 .layer-2aCOJ3 .button-1zW0-r {
     background-color: var(--background-primary);
 }
@@ -678,8 +650,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-modifier-hover);
 }
 
-/* |END| Components/Popouts - Context Menus */
-/* |START| Components/Popouts - Noise Suppression */
 #app-mount .noiseCancellationPopout-2-e5Xz {
     background-color: var(--background-floating);
 }
@@ -690,8 +660,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     mask-image: url('data:image/svg+xml;charset=utf-8,<svg width="8" height="20" viewBox="0 0 8 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z" fill="currentColor"/></svg>');
 }
 
-/* |END| Components/Popouts - Noise Suppression */
-/* |START| Components/Popouts - Pinned */
 .messageGroupWrapper-1jf_7C {
     background-color: var(--background-primary);
 }
@@ -699,8 +667,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
 }
 
-/* |END| Components/Popouts - Pinned */
-/* |START| Components/Popouts - Search */
 #app-mount .searchResultsWrap-5RVOkx, #app-mount .channelName-3w2Y3c, #app-mount .searchHeader-1r_ZSh {
     background-color: var(--background-primary);
 }
@@ -726,8 +692,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background: none;
 }
 
-/* |END| Components/Popouts - Search */
-/* |START| Components/Popouts - Preview Stream */
 #app-mount .streamPreview-I7itZ6 {
     background-color: var(--background-floating);
 }
@@ -735,8 +699,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-secondary);
 }
 
-/* |END| Components/Popouts - Preview Stream */
-/* |START| Components/Popouts - Threads */
 .container-18GwIk, .header-3_zmOb {
     background-color: var(--background-floating);
 }
@@ -752,8 +714,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: var(--background-secondary-alt);
 }
 
-/* |END| Components/Popouts - Threads */
-/* |START| Components/Popouts - Tooltips */
 #app-mount .tooltipGrey-lpLZjh {
     color: var(--text-normal);
     background-color: var(--background-floating);
@@ -762,7 +722,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-top-color: var(--background-floating);
 }
 
-/* |END| Components/Popouts - Tooltips */
 .scroller-3X7KbA {
     background-color: var(--background-primary);
 }
@@ -897,7 +856,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .headerBarInner-2pcZSM::after {
     background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-primary));
 }
-#app-mount .background-fkKrXt .applicationStreamingPreviewWrapper-7j27t8 {
+#app-mount .background-fkKrXt .previewContainer-3BJM_S {
     background-color: var(--background-secondary);
 }
 
