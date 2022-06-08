@@ -841,15 +841,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .iconContainer-2R-3M1 {
     background-color: var(--background-primary);
 }
-#app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ {
-    background-color: var(--background-tertiary);
-}
 @media (max-width: 1300px) {
     #app-mount .background-fkKrXt .container-xwOzwi,
 #app-mount .background-fkKrXt .container-3rZ3XA {
         background-color: var(--background-primary);
     }
-    #app-mount .background-fkKrXt .container-3HMTms {
+    #app-mount .background-fkKrXt .container-3HMTms,
+#app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ {
         background-color: var(--background-tertiary);
     }
 }

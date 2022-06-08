@@ -14,15 +14,13 @@
     .iconContainer-2R-3M1 {
         background-color: var(--background-primary);
     }
-    .emptyStateContainer-xWOMPJ {
-        background-color: var(--background-tertiary);
-    }
     @media(max-width: 1300px) {
         .container-xwOzwi,
         .container-3rZ3XA {
             background-color: var(--background-primary);
         }
-        .container-3HMTms {
+        .container-3HMTms,
+        .emptyStateContainer-xWOMPJ {
             background-color: var(--background-tertiary);
         }
     }
