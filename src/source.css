@@ -49,56 +49,6 @@ body, .appMount-2yBXZl, .app-2CXKsg, .bg-1QIAus {
     background-color: var(--background-primary) !important;
 }
 
-/* || Mountain Wumpus */
-[style$='("/assets/b36c705f790dad253981f1893085015a.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/mountain-wumpus.svg") !important;
-}
-
-/* || King Wumpus */
-[style$='("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/king-wumpus.svg") !important;
-}
-
-/* || Sleeping Wumpus */
-[style$='url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/sleeping-wumpus.svg") !important;
-}
-
-/* || Mining Wumpus */
-[style$='url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/mining-wumpus.svg") !important;
-}
-
-/* || Paper Plane */
-[style$='url("/assets/9937df80bc9c58a3e67709f58402f4db.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/paper-plane.svg") !important;
-}
-
-/* || Emojis */
-[style$='url("/assets/b21e574729a2e2b9243d811be7333677.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/emojis.svg") !important;
-}
-
-/* || Hammer */
-[style$='url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg");'] {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/hammer.svg") !important;
-}
-
-/* || Empty Wumpus */
-.emptyWumpus-11kRB0 {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/empty-wumpus.svg") !important;
-}
-
-/* || Empty Shared Guilds */
-.emptyIconGuilds-2NNSTU {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/empty-guilds.svg") !important;
-}
-
-/* || Empty Shared Friends */
-.emptyIconFriends-2LNxTX {
-    background-image: url("https://luckfire.github.io/amoled-cord-revised/assets/theme/empty-friends.svg") !important;
-}
-
 .button-1EGGcP.buttonColor-3bP3fX {
     background-color: var(--button-secondary-background);
 }
@@ -439,6 +389,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .root-g14mjS .syncCard-Mu6lpD {
     background-color: var(--background-primary);
 }
+#app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
+    border-color: var(--background-secondary-alt);
+    background-color: var(--background-primary);
+}
 #app-mount .root-g14mjS .footer-31IekZ, #app-mount .root-g14mjS .footer-VCsJQY {
     box-shadow: none;
     color: var(--text-normal);
@@ -544,10 +498,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 #app-mount .root-g14mjS .qualitySettingsContainer-2LjkfM {
     border-color: var(--background-primary);
-}
-#app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-3cQUnj) {
-    border-color: var(--background-secondary-alt);
-    background-color: var(--background-primary);
 }
 
 #app-mount .layer-2aCOJ3 .header-1w9Q93, #app-mount .layer-2aCOJ3 .header-1w9Q93 + div {
@@ -846,7 +796,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .background-fkKrXt .container-2Hi7Km,
 #app-mount .background-fkKrXt .container-xwOzwi,
 #app-mount .background-fkKrXt .container-3rZ3XA,
-#app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ,
 #app-mount .background-fkKrXt .wrapper-15CKyy {
     background-color: var(--background-tertiary);
 }
@@ -855,6 +804,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .background-fkKrXt .iconContainer-2R-3M1 {
     background-color: var(--background-primary);
+}
+#app-mount .background-fkKrXt .emptyStateContainer-xWOMPJ {
+    background-color: var(--background-secondary);
 }
 @media (max-width: 1300px) {
     #app-mount .background-fkKrXt .container-xwOzwi,

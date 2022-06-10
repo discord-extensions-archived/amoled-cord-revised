@@ -1,49 +1,16 @@
-/* || Mountain Wumpus */
-[style$='("/assets/b36c705f790dad253981f1893085015a.svg");'] {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/mountain-wumpus.svg') !important;
-}
+// could either add a filter or use custom images
+// dunno what im gonna do with this yet, i gotta redo the assets since i kinda messed them up
+// so for now they're :ppPoof:
 
-/* || King Wumpus */
-[style$='("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg");'] {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/king-wumpus.svg') !important;
-}
-
-/* || Sleeping Wumpus */
-[style$='url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");'] {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/sleeping-wumpus.svg') !important;
-}
-
-/* || Mining Wumpus */
-[style$='url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg");'] {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/mining-wumpus.svg') !important;
-}
-
-/* || Paper Plane */
-[style$='url("/assets/9937df80bc9c58a3e67709f58402f4db.svg");'] {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/paper-plane.svg') !important;
-}
-
-/* || Emojis */
-[style$='url("/assets/b21e574729a2e2b9243d811be7333677.svg");']  {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/emojis.svg') !important;
-}
-
-/* || Hammer */
-[style$='url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg");']  {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/hammer.svg') !important;
-}
-
-/* || Empty Wumpus */
-.emptyWumpus-11kRB0 {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/empty-wumpus.svg') !important;
-}
-
-/* || Empty Shared Guilds */
-.emptyIconGuilds-2NNSTU {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/empty-guilds.svg') !important;
-}
-
-/* || Empty Shared Friends */
-.emptyIconFriends-2LNxTX {
-    background-image: url('https://luckfire.github.io/amoled-cord-revised/assets/theme/empty-friends.svg') !important;
-}
+// [style$='("/assets/b36c705f790dad253981f1893085015a.svg");'], // mountain wumpus
+// [style$='("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg");'], // king wumpus
+// [style$='url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");'], // sleeping wumpus
+// [style$='url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg");'], // mining wumpus
+// [style$='url("/assets/9937df80bc9c58a3e67709f58402f4db.svg");'], // paper plane
+// [style$='url("/assets/b21e574729a2e2b9243d811be7333677.svg");'], // emojis
+// [style$='url("/assets/8f841811896e9d1eefcd13bcdaca9579.svg");'], // hammer
+// .emptyWumpus-11kRB0, // empty wumpus
+// .emptyIconGuilds-2NNSTU, // empty shared guilds
+// .emptyIconFriends-2LNxTX { // empty shared friends
+//     filter: brightness(0.35) grayscale(100%);
+// }
