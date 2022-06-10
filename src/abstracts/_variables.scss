@@ -38,13 +38,13 @@
     --text-muted: #969696;
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
-    --channels-default: #737373;
+    --channels-default: var(--text-muted);
 
     /* || Interactive */
     --channel-icon: var(--channels-default);
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
-    --interactive-muted: #2F3237;
+    --interactive-muted: #3B3F45;
 }
 /* |END| Abstracts - Variables */
