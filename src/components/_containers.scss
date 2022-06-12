@@ -1,51 +1,6 @@
-/* || Inputs
+/* || Containers
  * I'll improve on how this is done in the future. For now, it works.
  */
-
-#app-mount {
-    .input-2z42oC,
-    .input-2g-os5,
-    .searchBar-3TnChZ .searchBarComponent-3N7dCG,
-    .searchBox-pyIJJj,
-    .container-2oNtJn,
-    .addFriendInputWrapper-kkoSV9,
-    .channelTextArea-1VQBuV,
-    .lookFilled-1GseHa.select-1Ia3hD,
-    .container-30qY7E,
-    .copyInputDefault-3jiMHw,
-    .input-3r5zZY {
-        border: 1px solid var(--input-border);
-        background-color: var(--input-background);
-    }
-    .search-39IXmY {
-        border: 1px solid var(--input-border);
-        border-radius: 3px;
-    }
-    .searchBar-jGtisZ {
-        background-color: var(--input-background);
-    }
-    .search-2Mwzzq .DraftEditor-root {
-        padding: 1px 0;
-    }
-    .searchBoxInput-3h4etz,
-    .searchBox-31Zv9h {
-        border: none;
-        background: white;
-    }
-    .textarea-_59yqs,
-    .input-1bmui3,
-    .form-25Aujy .input-2g-os5,
-    .form-25Aujy .channelTextArea-1VQBuV,
-    .rulesTextAreaInput-asSkdy {
-        border: none;
-        background: transparent;
-    }
-    
-    .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
-    .container-1_EVMa:not(.disabled-3S7pz8):hover {
-        border-color: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,.3);
-    }
-}
 
 $path-down: 'M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z';
 $path-up: 'M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z';

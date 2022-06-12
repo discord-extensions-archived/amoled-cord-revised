@@ -73,6 +73,10 @@
             box-shadow: none;
             border-bottom: 1px solid var(--background-modifier-accent);
         }
+        .gameNameInput-2wbDJ9:focus, .gameNameInput-2wbDJ9:hover {
+            border: 1px solid var(--input-border);
+            background-color: var(--input-background);
+        }
     }
     #overlay-tab {
         .disabled-35mc5w {

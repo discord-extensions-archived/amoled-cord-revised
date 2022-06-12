@@ -67,6 +67,76 @@ body, .appMount-2yBXZl, .app-2CXKsg, .bg-1QIAus {
     background-color: var(--background-tertiary);
 }
 
+/* || Containers
+ * I'll improve on how this is done in the future. For now, it works.
+ */
+#app-mount .css-1kj8ui-container > div {
+    font-weight: 500;
+    border-color: var(--input-border);
+    background-color: var(--input-background);
+}
+#app-mount .css-ku6vh5-indicatorContainer {
+    height: 40px;
+    padding-left: 30px;
+}
+#app-mount .css-ku6vh5-indicatorContainer svg {
+    position: absolute;
+    top: 10px;
+    right: 9px;
+}
+#app-mount .css-ku6vh5-indicatorContainer path {
+    display: none;
+}
+#app-mount .css-gvi9bl-control .css-ku6vh5-indicatorContainer svg {
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+}
+#app-mount .css-17e1tep-control .css-ku6vh5-indicatorContainer svg {
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+}
+#app-mount .css-6fzn47-control .css-ku6vh5-indicatorContainer svg {
+    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
+}
+#app-mount .css-1llpzi1-indicatorContainer svg {
+    position: absolute;
+    top: 13px;
+    right: -5px;
+}
+#app-mount .css-3vaxre-menu {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary-alt);
+    box-shadow: none;
+    -webkit-animation: popup 0.22s ease-out;
+            animation: popup 0.22s ease-out;
+}
+#app-mount .css-1yz4bi9-option {
+    color: var(--interactive-normal);
+}
+#app-mount .css-rzbxvl-option {
+    color: var(--interactive-hover);
+    background-color: var(--background-modifier-hover);
+}
+#app-mount .css-1ba14n5-option {
+    color: var(--text-normal);
+    background-color: var(--background-tertiary);
+}
+
+@-webkit-keyframes popup {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes popup {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: none;
+    }
+}
 #app-mount .react-datepicker,
 #app-mount .react-datepicker__header {
     background-color: var(--background-floating);
@@ -228,118 +298,6 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     font-weight: bold;
 }
 
-/* || Inputs
- * I'll improve on how this is done in the future. For now, it works.
- */
-#app-mount .input-2z42oC,
-#app-mount .input-2g-os5,
-#app-mount .searchBar-3TnChZ .searchBarComponent-3N7dCG,
-#app-mount .searchBox-pyIJJj,
-#app-mount .container-2oNtJn,
-#app-mount .addFriendInputWrapper-kkoSV9,
-#app-mount .channelTextArea-1VQBuV,
-#app-mount .lookFilled-1GseHa.select-1Ia3hD,
-#app-mount .container-30qY7E,
-#app-mount .copyInputDefault-3jiMHw,
-#app-mount .input-3r5zZY {
-    border: 1px solid var(--input-border);
-    background-color: var(--input-background);
-}
-#app-mount .search-39IXmY {
-    border: 1px solid var(--input-border);
-    border-radius: 3px;
-}
-#app-mount .searchBar-jGtisZ {
-    background-color: var(--input-background);
-}
-#app-mount .search-2Mwzzq .DraftEditor-root {
-    padding: 1px 0;
-}
-#app-mount .searchBoxInput-3h4etz,
-#app-mount .searchBox-31Zv9h {
-    border: none;
-    background: white;
-}
-#app-mount .textarea-_59yqs,
-#app-mount .input-1bmui3,
-#app-mount .form-25Aujy .input-2g-os5,
-#app-mount .form-25Aujy .channelTextArea-1VQBuV,
-#app-mount .rulesTextAreaInput-asSkdy {
-    border: none;
-    background: transparent;
-}
-#app-mount .container-1_EVMa:not(.disabled-3S7pz8):focus-within,
-#app-mount .container-1_EVMa:not(.disabled-3S7pz8):hover {
-    border-color: hsla(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%, 0.3);
-}
-
-#app-mount .css-1kj8ui-container > div {
-    font-weight: 500;
-    border-color: var(--input-border);
-    background-color: var(--input-background);
-}
-#app-mount .css-ku6vh5-indicatorContainer {
-    height: 40px;
-    padding-left: 30px;
-}
-#app-mount .css-ku6vh5-indicatorContainer svg {
-    position: absolute;
-    top: 10px;
-    right: 9px;
-}
-#app-mount .css-ku6vh5-indicatorContainer path {
-    display: none;
-}
-#app-mount .css-gvi9bl-control .css-ku6vh5-indicatorContainer svg {
-    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
-}
-#app-mount .css-17e1tep-control .css-ku6vh5-indicatorContainer svg {
-    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16.59 8.59003L12 13.17L7.41 8.59003L6 10L12 16L18 10L16.59 8.59003Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
-}
-#app-mount .css-6fzn47-control .css-ku6vh5-indicatorContainer svg {
-    background: url('data:image/svg+xml;utf8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 16.0001L12 11.4201L16.59 16.0001L18 14.5901L12 8.59006L6 14.5901L7.41 16.0001Z" fill="%23DCDDDE"/></svg>') center/100% no-repeat;
-}
-#app-mount .css-1llpzi1-indicatorContainer svg {
-    position: absolute;
-    top: 13px;
-    right: -5px;
-}
-#app-mount .css-3vaxre-menu {
-    background-color: var(--background-secondary);
-    border-color: var(--background-secondary-alt);
-    box-shadow: none;
-    -webkit-animation: popup 0.22s ease-out;
-            animation: popup 0.22s ease-out;
-}
-#app-mount .css-1yz4bi9-option {
-    color: var(--interactive-normal);
-}
-#app-mount .css-rzbxvl-option {
-    color: var(--interactive-hover);
-    background-color: var(--background-modifier-hover);
-}
-#app-mount .css-1ba14n5-option {
-    color: var(--text-normal);
-    background-color: var(--background-tertiary);
-}
-
-@-webkit-keyframes popup {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: none;
-    }
-}
-
-@keyframes popup {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: none;
-    }
-}
 .base-2jDfDU .membersWrap-3NUR2t {
     background-color: var(--background-primary);
 }
@@ -361,7 +319,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     z-index: 101;
     position: relative;
     text-align: center;
-    content: "AMOLED-cord is strictly meant to be used in dark mode, so it will not work properly in light mode. Please head over to Settings -> Appearance, then under Theme, enable Dark.";
+    content: "AMOLED-cord is strictly meant to be used in dark mode, so it will not properly work in light mode. Please head over to Settings, then Appearance, finally under Theme, enable Dark.";
     font-size: 14px;
     font-weight: 500;
     line-height: 36px;
@@ -379,6 +337,11 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-radius: 0;
 }
 
+.title-31SJ6t .searchBar-jGtisZ {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
+}
+
 #app-mount .root-g14mjS {
     box-shadow: none;
     background-color: var(--modal-background);
@@ -388,6 +351,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .root-g14mjS .syncCard-Mu6lpD {
     background-color: var(--background-primary);
+}
+#app-mount .root-g14mjS .input-2g-os5 {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
 }
 #app-mount .root-g14mjS .item-2OyinQ:not(.selectorButtonSelected-3cQUnj, .selectorButtonSelected-1VZ6hz) {
     border-color: var(--background-secondary-alt);
@@ -511,6 +478,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     border-color: var(--background-primary);
     background-color: var(--background-floating);
 }
+#app-mount .input-2z42oC {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
+}
 
 #app-mount .addGamePopout-2SKNIV {
     box-shadow: none;
@@ -633,13 +604,13 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 #app-mount .searchResultsWrap-5RVOkx, #app-mount .channelName-3w2Y3c, #app-mount .searchHeader-1r_ZSh {
-    background-color: var(--background-primary);
-}
-#app-mount .searchResult-O9NDji {
     background-color: var(--background-tertiary);
 }
-#app-mount .button-cfOvv- {
+#app-mount .searchResult-O9NDji {
     background-color: var(--background-primary);
+}
+#app-mount .button-cfOvv- {
+    background-color: var(--background-secondary);
 }
 #app-mount .searchAnswer-23w-CH,
 #app-mount .searchFilter-2UfsDk {
@@ -703,6 +674,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 .sidebar-1tnWFu .panels-3wFtMD, .sidebar-1tnWFu .container-1NXEtd, .sidebar-1tnWFu .privateChannels-oVe7HL, .sidebar-1tnWFu .scroller-WSmht3 {
     background-color: var(--background-primary);
+}
+.sidebar-1tnWFu .searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
 }
 .sidebar-1tnWFu .channelInfo-3jN1ay .users-2JoyGL {
     background-color: var(--background-secondary);
@@ -778,6 +753,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 #app-mount .message-2CShn3:not(.mentioned-Tre-dv, .ephemeral-2nDdnn):hover {
     background-color: rgba(33, 35, 37, 0.1);
 }
+#app-mount .channelTextArea-1VQBuV {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
+}
 
 #app-mount .pageWrapper-2PwDoS {
     background-color: var(--background-primary);
@@ -835,6 +814,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 #app-mount .container-3wLKDe .pill-3pRQlO {
     background-color: var(--background-secondary);
+}
+
+.container-2RRFHK {
+    background-color: var(--background-primary);
 }
 
 #app-mount .layer-86YKbF .tierBody-1d3UiS {
@@ -952,6 +935,10 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     box-shadow: none;
     border-bottom: 1px solid var(--background-modifier-accent);
 }
+#app-mount .layer-86YKbF #game-activity-tab .gameNameInput-2wbDJ9:focus, #app-mount .layer-86YKbF #game-activity-tab .gameNameInput-2wbDJ9:hover {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
+}
 #app-mount .layer-86YKbF #overlay-tab .disabled-35mc5w {
     color: var(--background-accent);
 }
@@ -988,6 +975,14 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 #app-mount .container-2cd8Mz {
     background-color: var(--background-primary);
+}
+#app-mount .container-2cd8Mz .searchBar-2aylmZ,
+#app-mount .container-2cd8Mz .addFriendInputWrapper-kkoSV9:not(:focus-within) {
+    border: 1px solid var(--input-border);
+    background-color: var(--input-background);
+}
+#app-mount .container-2cd8Mz .addFriendInputWrapper-kkoSV9 {
+    background-color: var(--input-background);
 }
 #app-mount .container-2cd8Mz .peopleListItem-u6dGxF:hover {
     background-color: var(--background-tertiary);

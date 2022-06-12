@@ -2,6 +2,14 @@
     // || Friends
     .container-2cd8Mz {
         background-color: var(--background-primary);
+        .searchBar-2aylmZ,
+        .addFriendInputWrapper-kkoSV9:not(:focus-within) {
+            border: 1px solid var(--input-border);
+            background-color: var(--input-background);
+        }
+        .addFriendInputWrapper-kkoSV9 {
+            background-color: var(--input-background);
+        }
         .peopleListItem-u6dGxF:hover {
             background-color: var(--background-tertiary);
         }

@@ -1,13 +1,13 @@
 #app-mount {
     // || Search Side Popout
     .searchResultsWrap-5RVOkx, .channelName-3w2Y3c, .searchHeader-1r_ZSh {
-        background-color: var(--background-primary);
-    }
-    .searchResult-O9NDji {
         background-color: var(--background-tertiary);
     }
-    .button-cfOvv- {
+    .searchResult-O9NDji {
         background-color: var(--background-primary);
+    }
+    .button-cfOvv- {
+        background-color: var(--background-secondary);
     }
 
     // || Search Popount Container
