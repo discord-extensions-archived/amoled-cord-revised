@@ -3,12 +3,20 @@
        {
            "format": "expanded",
            "extensionName": ".css",
-           "savePath": null,
+           "savePath": "~/",
            "indentWidth": 4
        }
    ],
-   
-   "liveSassCompile.settings.generateMap": false
+
+   "liveSassCompile.settings.excludeList": [
+        "/.vscode/**",
+        "/src/source.scss"
+   ],
+
+   "liveSassCompile.settings.generateMap": false,
+   "liveSassCompile.settings.autoprefix": [
+       "defaults"
+    ],
 }
 
 // expanded
