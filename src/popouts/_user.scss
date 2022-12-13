@@ -1,0 +1,17 @@
+#app-mount {
+    // This also covers the user modal.
+    .profileColors-3Y0XaR.default-colors {
+        --profile-gradient-primary-color: var(--background-secondary);
+        --profile-gradient-secondary-color: var(--background-secondary);
+        --profile-gradient-overlay-color: transparent;
+        --profile-gradient-button-color: var(--button-secondary-background);
+        --profile-avatar-border-color: var(--background-secondary);
+        --profile-message-input-border-color: var(--background-modifier-accent);
+        --profile-body-background-color: var(--background-floating);
+        --profile-body-background-hover: var(--background-modifier-hover);
+        --profile-body-divider-color: var(--background-modifier-accent);
+        --profile-role-pill-background-color: var(--background-secondary);
+        --profile-role-pill-border-color: var(--interactive-normal);
+        --account-profile-popout-menu-hover: var(--brand-experiment-560);
+    }
+}
