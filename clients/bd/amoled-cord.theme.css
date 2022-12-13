@@ -22,6 +22,9 @@ html.theme-dark .theme-dark:not(.userProfileOuterThemed-3EfHmv) {
     --background-accent: var(--primary-dark-760);
     --background-floating: var(--primary-dark-860);
     --channeltextarea-background: var(--primary-dark-800);
+    --deprecated-card-bg: var(--background-secondary);
+    --deprecated-card-editable-bg: var(--background-secondary);
+    --activity-card-background: var(--background-secondary);
     --modal-background: var(--primary-light-860);
     --modal-footer-background: var(--primary-dark-860);
     --scrollbar-thin-thumb: var(--primary-light-700);
@@ -30,9 +33,11 @@ html.theme-dark .theme-dark:not(.userProfileOuterThemed-3EfHmv) {
     --scrollbar-auto-track: var(--primary-dark-800);
     --scrollbar-auto-scrollbar-color-thumb: var(--primary-light-700);
     --scrollbar-auto-scrollbar-color-track: var(--primary-dark-800);
+    --input-background: var(--primary-light-830);
+    --input-placeholder-text: var(--input-placeholder-text-dark);
     --background-modifier-hover: rgba(var(--primary-dark-500-rgb), 0.07);
-    --background-modifier-active: rgba(var(--primary-dark-500-rgb), 0.15);
-    --background-modifier-selected: rgba(var(--primary-dark-500-rgb), 0.17);
+    --background-modifier-active: rgba(var(--primary-dark-500-rgb), 0.17);
+    --background-modifier-selected: rgba(var(--primary-dark-500-rgb), 0.19);
     --background-modifier-accent: rgba(var(--primary-dark-500-rgb), 0.15);
     --header-primary: var(--white-500);
     --header-secondary: var(--primary-dark-300);
@@ -208,6 +213,74 @@ html.theme-dark .theme-dark:not(.userProfileOuterThemed-3EfHmv) {
 
 #app-mount .layer-86YKbF .sidebarRegionScroller-FXiQOh {
     background: var(--background-primary);
+}
+#app-mount .layer-86YKbF .bar-1Bhnl9, #app-mount .layer-86YKbF .markDash-yk2kJ- {
+    background-color: var(--background-secondary-alt);
+}
+
+#app-mount .layer-86YKbF .tierHeaderLocked-30MLlO, #app-mount .layer-86YKbF .tierHeaderUnlocked-1OpOLf {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .prefixInput-w72mM6 {
+    background-color: var(--input-background);
+}
+#app-mount .layer-86YKbF .auditLog-1NVAY0 {
+    border-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .auditLog-1NVAY0 .headerClickable-zGQJz3, #app-mount .layer-86YKbF .auditLog-1NVAY0 .headerDefault-1e6yjj, #app-mount .layer-86YKbF .auditLog-1NVAY0 .headerExpanded-1-zwDr, #app-mount .layer-86YKbF .auditLog-1NVAY0 .divider-M3saWq {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .auditLog-1NVAY0 .changeDetails-1kMZqI {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .upsellContainer-2a5eMP {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .upsellFooter-3M1V33 {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .reasonContainer-2_HuOZ {
+    border: none;
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .enableContainer-H2cRts {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .container-3rxzV7 {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .tierBody-1d3UiS {
+    background-color: var(--background-secondary);
+}
+
+#app-mount .layer-86YKbF .connectContainer-1hylYM {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .connectContainer-1hylYM .accountButtonInner-33vCDY {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .promotionCard-mo7ClH {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .verticalFit-21XL0v .paymentPane-ut5qKZ, #app-mount .layer-86YKbF .verticalFit-21XL0v .paginator-1eqD2g, #app-mount .layer-86YKbF .verticalFit-21XL0v .payment-2bOh4k {
+    background-color: var(--background-secondary);
+}
+#app-mount .layer-86YKbF .verticalFit-21XL0v .bottomDivider-ZmTm-j {
+    border-bottom-color: var(--background-modifier-accent);
+}
+#app-mount .layer-86YKbF .codeRedemptionRedirect-2hYMSQ {
+    border-color: var(--background-tertiary);
+    background-color: var(--deprecated-card-bg);
+}
+#app-mount .layer-86YKbF .notches-2w7UZJ.gray-3wP137 {
+    color: var(--background-primary);
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .layer-86YKbF .game-2f2vPC {
+    box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+}
+#app-mount .feature-2IUcBI {
+    background-color: var(--background-secondary);
 }
 
 :root {

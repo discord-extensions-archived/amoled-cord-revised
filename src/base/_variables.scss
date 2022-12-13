@@ -14,6 +14,9 @@ html.theme-dark .theme-dark:not(.userProfileOuterThemed-3EfHmv) {
     --background-accent: var(--primary-dark-760);
     --background-floating: var(--primary-dark-860);
     --channeltextarea-background: var(--primary-dark-800);
+    --deprecated-card-bg: var(--background-secondary);
+    --deprecated-card-editable-bg: var(--background-secondary);
+    --activity-card-background: var(--background-secondary);
 
     --modal-background: var(--primary-light-860);
     --modal-footer-background: var(--primary-dark-860);
@@ -24,9 +27,12 @@ html.theme-dark .theme-dark:not(.userProfileOuterThemed-3EfHmv) {
     --scrollbar-auto-scrollbar-color-thumb: var(--primary-light-700);
     --scrollbar-auto-scrollbar-color-track: var(--primary-dark-800);
 
+    --input-background: var(--primary-light-830);
+    --input-placeholder-text: var(--input-placeholder-text-dark);
+
     --background-modifier-hover: rgba(var(--primary-dark-500-rgb), 0.07);
-    --background-modifier-active: rgba(var(--primary-dark-500-rgb), 0.15);
-    --background-modifier-selected: rgba(var(--primary-dark-500-rgb), 0.17);
+    --background-modifier-active: rgba(var(--primary-dark-500-rgb), 0.17);
+    --background-modifier-selected: rgba(var(--primary-dark-500-rgb), 0.19);
     --background-modifier-accent: rgba(var(--primary-dark-500-rgb), 0.15);
 
     --header-primary: var(--white-500);

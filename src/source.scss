@@ -16,4 +16,7 @@
 @forward 'pages/discovery';
 @forward 'pages/forum';
 @forward 'pages/home';
-@forward 'pages/settings';
+@forward 'pages/settings/main';
+@forward 'pages/settings/channel';
+@forward 'pages/settings/guild';
+@forward 'pages/settings/user';
