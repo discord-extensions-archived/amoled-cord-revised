@@ -17,7 +17,12 @@
 3. Press the `Install Style` button.
 
 ### **[Vencord](https://github.com/Vendicated/Vencord)**
-1. ill add steps in the future oK??
+1. Go to user settings (CTRL + ,)
+2. Go to the "Vencord" category and select the "Themes" tab.
+3. In the input field under "THEMES," paste the following URL.
+```
+https://luckfire.github.io/amoled-cord-revised/src/source.css
+```
 ---
 ### Licensing
 This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rigths and limitations.
