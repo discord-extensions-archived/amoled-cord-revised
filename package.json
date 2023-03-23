@@ -1,0 +1,16 @@
+{
+  "name": "amoled-cord",
+  "version": "4.0.0",
+  "description": "A customizable, pitch black theme for Discord. Lights out, baby!",
+  "type": "module",
+  "scripts": {
+		"dev": "bd-scss dev",
+		"build": "bd-scss build"
+  },
+  "dependencies": {
+    "bd-scss": "^2.0.12"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.5"
+  }
+}

@@ -1,24 +1,3 @@
-@forward 'base/variables';
-@forward 'base/app';
-@forward 'base/guilds';
-@forward 'base/members';
-@forward 'base/sidebar';
+@use 'core/variables';
 
-@forward 'modals/modal';
-@forward 'modals/add-server';
-
-@forward 'components/light-mode-warning';
-@forward 'components/messages';
-@forward 'components/title-container';
-@forward 'components/windows-titlebar';
-
-@forward 'pages/channels-roles';
-@forward 'pages/discovery';
-@forward 'pages/forum';
-@forward 'pages/home';
-@forward 'pages/settings/main';
-@forward 'pages/settings/channel';
-@forward 'pages/settings/guild';
-@forward 'pages/settings/user';
-
-@forward 'popouts/user';
+@use 'theme';
