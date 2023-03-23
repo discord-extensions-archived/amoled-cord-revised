@@ -1,7 +1,7 @@
 /** @type {import('bd-scss/lib/config').Config} */
 export default {
     fileName: 'amoled-cord',
-    baseImport: 'https://luckfire.github.io/amoled-cord-revised/src/source.css',
+    baseImport: 'https://luckfire.github.io/amoled-cord-revised/src/amoled-cord.css',
 	meta: {
         name: 'AMOLED-Cord',
         author: 'LuckFire',
