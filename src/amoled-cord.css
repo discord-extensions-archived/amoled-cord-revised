@@ -221,6 +221,13 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-secondary-alt);
 }
 
+#app-mount .bar-2H7Q9u {
+  background-color: var(--background-accent);
+}
+#app-mount .markDash-1ATsxA {
+  background: var(--background-accent);
+}
+
 #app-mount .container-ZMc96U.themed-Hp1KC_ {
   background: var(--background-primary);
 }
@@ -372,6 +379,9 @@ html.theme-dark .theme-light .root-1CAIjD {
   background-color: var(--background-tertiary);
 }
 
+#app-mount .layers-OrUESM .avatarUploaderInnerSquareDisabled-3M9eJS {
+  background-color: var(--background-secondary-alt);
+}
 #app-mount .layers-OrUESM .tierHeaderContent-2SPBAA {
   background-color: var(--background-secondary);
 }
@@ -439,6 +449,9 @@ html.theme-dark .theme-light .root-1CAIjD {
 #app-mount .layers-OrUESM .codeRedemptionRedirect-2hYMSQ {
   border-color: var(--background-tertiary);
   background-color: var(--background-secondary);
+}
+#app-mount .layers-OrUESM .notches-2w7UZJ.gray-3wP137 {
+  color: var(--background-primary);
 }
 #app-mount .layers-OrUESM .container-30qY7E {
   background-color: var(--input-background);
