@@ -1,7 +1,7 @@
 /** @type {import('bd-scss/lib/config').Config} */
 export default {
     fileName: 'amoled-cord',
-    baseImport: 'https://luckfire.github.io/AMOLED-Cord/src/amoled-cord.css',
+    baseImport: 'https://luckfire.github.io/amoled-cord/src/amoled-cord.css',
 	meta: {
         name: 'AMOLED-Cord',
         author: 'LuckFire',
@@ -13,7 +13,7 @@ export default {
 	},
     dist: {
         target: 'src/source.scss',
-        output: 'clients/betterdiscord'
+        output: 'clients'
     },
     base: {
         target: 'src/source.scss',
