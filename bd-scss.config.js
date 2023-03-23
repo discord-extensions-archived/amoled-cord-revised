@@ -19,6 +19,10 @@ export default {
         target: 'src/source.scss',
         output: 'src'
     },
+    dev: {
+        target: 'src/source.scss',
+        output: 'C:\\Users\\coltb\\AppData\\Roaming\\BetterDiscord\\themes'
+    },
     addons: [
         ['./src/addons/_discolored.scss', './src/addons/discolored.css']
     ]

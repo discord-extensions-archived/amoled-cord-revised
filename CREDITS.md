@@ -4,4 +4,4 @@
 |[FedeIlLeone](https://github.com/FedeIlLeone)|
 
 ## Addons Used
-- [Discolored](https://github.com/NYRI4/Discolored)・[License](https://github.com/NYRI4/Discolored/blob/master/LICENCE)
+[Discolored](https://github.com/NYRI4/Discolored)・[License](https://github.com/NYRI4/Discolored/blob/master/LICENCE)
