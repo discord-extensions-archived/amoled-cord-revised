@@ -11,6 +11,9 @@
 1. Go to user settings (CTRL + ,)
 2. Go to the "Vencord" category and select the "Themes" tab.
 3. In the input field under "THEMES," paste the following URL.
+```
+https://luckfire.github.io/amoled-cord-revised/src/source.css
+```
 
 ### ![stylus](https://luckfire.github.io/amoled-cord-revised/assets/icons/stylus.png) **Stylus**
 > **Warning**  
@@ -20,9 +23,6 @@
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
 2. Once installed, open [this link]() in a new browser tab. This opens the page where you will install this userstyle.
 3. Press the `Install Style` button.
-```
-https://luckfire.github.io/amoled-cord-revised/src/source.css
-```
 ---
 ### Licensing
 This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rigths and limitations.
