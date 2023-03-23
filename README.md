@@ -12,7 +12,7 @@
 2. Go to the "Vencord" category and select the "Themes" tab.
 3. In the input field under "THEMES," paste the following URL.
 ```
-https://luckfire.github.io/amoled-cord-revised/src/source.css
+https://luckfire.github.io/amoled-cord-revised/src/amoled-cord.css
 ```
 
 ### ![stylus](https://luckfire.github.io/amoled-cord-revised/assets/icons/stylus.png) **Stylus**
