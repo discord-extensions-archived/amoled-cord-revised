@@ -26,3 +26,9 @@ https://luckfire.github.io/amoled-cord-revised/src/amoled-cord.css
 ---
 ### Licensing
 This theme is licensed under the MIT license. Please refer to the [LICENSE](./LICENSE) file for more details regarding rigths and limitations.
+
+### Credits
+Everyone who has contributed can be found on the [CREDITS.md](./CREDITS.md) file. A personal thank you to everyone who has helped!
+
+### Support
+If you've ran into an issue with an area being unthemed, **PLEASE REPORT IT IN AN ISSUE**. If you have some other issue you need help with, feel free to join my [support server](https://discord.gg/vYdXbEzqDs).
